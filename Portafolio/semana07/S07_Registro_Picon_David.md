@@ -14,9 +14,9 @@ Escriba la predicción antes de seleccionar la vista en Fusion. No borre una pre
 
 | Vista | Predicción sobre el escalón | ¿Qué observé al seleccionarla? |
 |---|---|---|
-| Front | [Predicción] | [Comprobación] |
-| Top | [Predicción] | [Comprobación] |
-| Right | [Predicción] | [Comprobación] |
+| Front | [Parece una silueta ya que se el cambio de alturra y tentra una altura de 40 y 60 de ancho] | [Una silueta con 60 de largo y 40 de ancho] |
+| Top | [Se vera con una linea interior] | [se ve una silueta con una linea vertical con 30 de alto y 63 de ancho] |
+| Right | [Una silueta con una linea justo en medio] | [una silueta rectangular con 63 de alto 30 de ancho] |
 
 ### Medidas verificadas con Inspect > Measure
 
@@ -24,11 +24,11 @@ Seleccione una arista completa y anote su longitud en milímetros. Identifique f
 
 | Dato | Longitud medida (mm) | ¿Qué arista seleccioné? |
 |---|---:|---|
-| Ancho total | [Valor] | [Descripción] |
-| Profundidad | [Valor] | [Descripción] |
-| Altura máxima | [Valor] | [Descripción] |
-| Altura de la parte baja | [Valor] | [Descripción] |
-| Ancho de la parte alta | [Valor] | [Descripción] |
+| Ancho total | [60 mm] | [Arista horizontal frontal completa] |
+| Profundidad | [30 mm] | [Arista lateral, de delante hacia atras] |
+| Altura máxima | [40 mm] | [Arista vertical de la parte alta] |
+| Altura de la parte baja | [20 mm] | [Arista veryical de la parte baja] |
+| Ancho de la parte alta | [20 mm] | [Arista horizontal de la parte baja] |
 
 ### Evidencia del modelo y de una medición
 
