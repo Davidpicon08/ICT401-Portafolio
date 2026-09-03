@@ -1,0 +1,8 @@
+Se realizo una extrsuion de 10 mm a partir de una placa rectangular de 80x50 mm.
+Posterior en la superficie superior de la placa se crearon el resalte circulae y
+las demas caracteristicas nesarias, manteniendo todas las operaciones dentro de un
+mismo body. Una relacion importante dentro del historial de construccion es el centrado
+del resalte con respexto a la placa base. Para verifiicae el comportamiento parametrico
+del modelo, se modifico momentaneamenete la longitud de 80 mm a 84 mm y luego se restablecio
+a su valor original. Durante este proceso, el modelo se actualizo correctamnete sin perde
+r su geometria ni las relaciones establecidasce
