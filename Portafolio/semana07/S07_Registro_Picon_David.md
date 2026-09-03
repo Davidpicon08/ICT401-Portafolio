@@ -34,7 +34,7 @@ Seleccione una arista completa y anote su longitud en milímetros. Identifique f
 
 ![P1: modelo completo en mi copia de Fusion](S07_P1_Modelo_Picon_David.png)
 
-![P1: arista seleccionada y longitud visible en Measure](S07 P1 Medida Picon David.png.png)
+![P1: arista seleccionada y longitud visible en Measure](S07_P1_Medida_Picon_David.png)
 
 - Vistas que comparten ancho: [Respuesta].
 - Vistas que comparten altura: [Respuesta].
