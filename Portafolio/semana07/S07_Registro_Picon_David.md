@@ -1,6 +1,6 @@
 # Semana 7 — Registro de práctica en Fusion
 
-- Estudiante: [David Picon]- Grupo: [60]- Archivo en Fusion Cloud: `ICT401_S07_Vistas_Apellido_Nombre`
+- Estudiante: [David Picon]- Grupo: [60]- Archivo en Fusion Cloud: `ICT401_S07_Vistas_Picon_David`
 - Carpeta o proyecto con acceso docente: [ICT401_S07_Vistas_Picon_David]- Sistema para disponer las vistas: primer diedro.
 - Cámara de las capturas principales: ortográfica.
 
