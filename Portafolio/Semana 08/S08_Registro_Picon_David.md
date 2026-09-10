@@ -111,35 +111,45 @@ Modelo correcto proporcionado por el docente durante la comprobación, en orient
 
 ### P3.1 · Caso A: ¿qué vista parece incorrecta, qué línea produce la inconsistencia, con cuál otra vista entra en contradicción y cómo debería corregirse?
 
-[Respuesta]
+[La vista Front,	La línea que representa el cambio de nivel y que no coincide con las caras mostradas en las otras vistas.	Contradice principalmente la vista Top.
+La vista debe modificarse para que las aristas y el cambio de nivel coincidan con la geometría real del modelo.]
 
 ### P3.2 · Caso B: ¿qué dimensión debería conservarse, dónde aparece la contradicción, qué información permite comprobarla y cómo debería corregirse?
 
-[Respuesta]
+[La profundidad Y. Top indica 48 mm y Right indica 40 mm.	Porque Top y Right representan la misma dimensión Y, por lo que la profundidad debe ser igual en ambas vistas.	Con Inspect → Measure, midiendo la arista completa correspondiente a la profundidad.
+	Se debe corregir la vista que tenga el valor incorrecto para que ambas indiquen la profundidad real de la pieza.]
 
 ### P3.3 · Caso C: ¿cuál vista no pertenece al conjunto, qué característica lo demuestra, con cuáles vistas entra en contradicción y qué debería mostrar una vista correcta?
 
-[Respuesta]
+[La vista que presenta una forma/arista que no corresponde con las otras dos vistas.	Una característica adicional que no aparece en las otras vistas.Con las otras dos vistas del mismo conjunto.
+	Debe mostrar únicamente las caras y aristas que corresponden al mismo sólido representado por Front, Top y Right.]
 
 ### P3.4 · Para cada caso: ¿qué acción realizó en Fusion, qué observó y cómo corrigió su hipótesis inicial?
 
-[Respuesta]
+[Caso A:
+Recuperé el modelo de comprobación de P2 y cambié entre las vistas Top, Front y Right en el ViewCube. Luego giré el modelo para revisar las caras relacionadas con la línea que parecía incorrecta. Noté que la línea horizontal de Top no coincidía con una arista real del sólido, por lo que confirmé que el error estaba en la vista Top.
+
+Caso B:
+Abrí el modelo de comprobación y utilicé Inspeccionar → Medir (Measure). Seleccioné la arista completa que representa la profundidad y comparé la medida obtenida con los valores de 48 mm y 40 mm. De esta manera pude determinar cuál de las dos vistas tenía la medida incorrecta y debía corregirse.
+
+Caso C:
+Abrí nuevamente el modelo y fui alternando entre Front, Top y Right. Giré el sólido para verificar la ubicación de la zona elevada respecto al frente. Comprobé que la posición mostrada en Front no coincidía con la que indicaban Top y Right, por lo que concluí que Front era la vista incorrecta.]
 
 ### P3.5 · ¿Qué caso documentó en la captura y qué detalle demuestra el error?
 
-[Respuesta]
+[Documenté el Caso B, ya que permite evidenciar claramente el error mediante la herramienta Measure. En la captura debe verse la arista completa seleccionada, la medida obtenida, el nombre del diseño y el ViewCube. De esta manera se puede comprobar cuál de las dos medidas de profundidad, 48 mm o 40 mm, corresponde realmente al sólido.]
 
 | Caso | Hipótesis inicial | Acción en Fusion y observación | Corrección y causa |
 |---|---|---|---|
-| A | [Respuesta] | [Respuesta] | [Respuesta] |
-| B | [Respuesta] | [Respuesta] | [Respuesta] |
-| C | [Respuesta] | [Respuesta] | [Respuesta] |
+| A | [La vista Top parece equivocada porque la línea horizontal atraviesa toda la pieza y no coincide con la zona elevada que se observa en Right.] | [Abrí el modelo de P2 y fui cambiando entre Top, Front y Right. También giré el sólido para identificar las caras relacionadas con esa línea.] | [Corregí Top para que la línea representara únicamente la arista correspondiente al cambio de nivel. El problema se debía a que la arista estaba representada con una continuidad incorrecta.] |
+| B | La profundidad debería ser igual en Top y Right, pero se muestran valores diferentes: 48 mm en Top y 40 mm en Right.] | [Utilicé Inspeccionar → Medir y seleccioné la arista completa que representa la profundidad. Después comparé la medida obtenida con los valores de 48 mm y 40 mm. | [Corregí la vista cuyo valor no coincidía con la medida real. El motivo del error es que Top y Right deben conservar la misma dimensión Y.] |
+| C | [La vista Front parece incorrecta porque la zona elevada aparece ubicada en el lado opuesto al que indican Top y Right.] | [Alterné entre Front, Top y Right y giré el modelo para comprobar dónde estaba realmente ubicada la zona elevada.] | [Corregí Front para colocar la zona elevada en la posición indicada por Top y Right. El error se debía a que Front mostraba la característica en la posición correspondiente a otra pieza.] |
 
 ### Evidencias
 
 Una vista de Fusion que compruebe uno de los errores; nombre y ViewCube visibles. Para el caso B, incluya Measure con la arista completa y su longitud.
 
-![P3: Error](S08_P3_Error_Apellido_Nombre.png)
+![P3: Error](S08_P2_Seleccion_Picon_David.png)
 
 
 ## P4 — Reconstrucción 3D guiada
