@@ -57,7 +57,7 @@ top y right comparten la profundidad y de 64.62 mm]
 
 Modelo completo en orientación pictórica, ViewCube y nombre de su copia visibles.
 
-![P1: Modelo](S08_P1_Modelo_Apellido_Nombre.png)
+![P1: Modelo](S08P1_Modelo_Picon_David.png)
 
 Un montaje de tres capturas de Fusion: Right a la izquierda, Front a la derecha y Top debajo de Front; etiquetas y cuerpo completo visibles.
 
