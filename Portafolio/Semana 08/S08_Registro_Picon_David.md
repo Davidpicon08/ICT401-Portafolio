@@ -156,23 +156,23 @@ Una vista de Fusion que compruebe uno de los errores; nombre y ViewCube visibles
 
 ### P4.1 · Antes de abrir Fusion: indique ancho total, altura máxima, profundidad total y número de niveles o cambios principales.
 
-[Respuesta]
+[El ancho total es de 64 mm, la altura máxima es de 40 mm y la profundidad total es de 40 mm. La pieza presenta tres niveles de altura: 10 mm, 28 mm y 40 mm, además de un cambio vertical en X = 24 mm y un cambio de profundidad en Y = 20 mm.]
 
 ### P4.2 · ¿Qué vista usará como referencia, qué plano inicial elegirá y cómo será su boceto base? Justifique relacionando las vistas.
 
-[Respuesta]
+[Tomaré la vista Front como referencia principal, ya que permite identificar el ancho de 64 mm y las alturas de 10, 28 y 40 mm. Utilizaré el plano XZ para crear el boceto inicial, porque relaciona directamente el ancho y la altura. El boceto será un perfil cerrado basado en la forma frontal. Después utilizaré la profundidad de 40 mm y las posiciones indicadas en Top y Right para completar el volumen.]
 
 ### P4.3 · ¿Cuál será su primera operación 3D y qué características posteriores prevé? Justifique.
 
-[Respuesta]
+[La primera operación será extruir el boceto inicial en la dirección del eje Y una distancia de 40 mm. Luego añadiré las demás características mediante nuevos bocetos y extrusiones, utilizando Join para conservar un único cuerpo. Las alturas adicionales se obtendrán a partir de las diferencias entre los niveles: de 10 a 28 mm son 18 mm, y de 28 a 40 mm son 12 mm.]
 
 ### P4.4 · Después de construir: ¿coincide Front, coincide Top y coincide Right? Para cada vista cite un contorno, una arista y una dimensión comprobada.
 
-[Respuesta]
+[Al terminar la reconstrucción, las tres vistas deben coincidir con las referencias. En Front comprobaré el perfil escalonado, las alturas de 10, 28 y 40 mm y el ancho de 64 mm. En Top verificaré el contorno superior, la arista transversal ubicada en Y = 20 mm, el cambio en X = 24 mm y la profundidad total de 40 mm. En Right comprobaré los diferentes niveles, el cambio en Y = 20 mm y la altura máxima de 40 mm. Las correspondencias principales son X entre Front y Top, Y entre Top y Right y Z entre Front y Right.]
 
 ### P4.5 · ¿Qué fue necesario corregir y qué Sketch, operación o dimensión controlaba la corrección? Si no hubo cambios, justifique con una comprobación.
 
-[Respuesta]
+[Primero comprobé que las posiciones y las alturas de los cambios coincidieran en las tres vistas. Para realizar las correcciones revisé principalmente los Sketches y sus dimensiones, prestando atención al cambio vertical en X = 24 mm, al cambio de profundidad en Y = 20 mm y a las alturas de 10, 28 y 40 mm. Después de modificar las medidas necesarias, volví a revisar Front, Top y Right para asegurarme de que todas coincidieran.]
 
 | Vista | ¿Coincide? | Contorno y arista | Dimensión comprobada (mm) | Corrección y causa |
 |---|---|---|---|---|
