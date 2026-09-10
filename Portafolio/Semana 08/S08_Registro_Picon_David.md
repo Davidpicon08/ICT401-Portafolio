@@ -68,44 +68,43 @@ Un montaje de tres capturas de Fusion: Right a la izquierda, Front a la derecha 
 
 ### P2.1 · ¿Qué forma general imagina y cuáles son sus cambios de altura?
 
-[Respuesta]
+[Imagino una pieza prismática maciza formada por diferentes niveles de altura. Los cambios de altura deben poder relacionarse entre Front y Right.]
 
 ### P2.2 · ¿La profundidad se mantiene o cambia entre zonas? Relacione las tres vistas.
 
-[Respuesta]
+[La profundidad debe determinarse principalmente mediante Top y Right. Las zonas que cambian de profundidad deben conservar correspondencia entre ambas vistas.]
 
 ### P2.3 · ¿Qué correspondencias encuentra entre vistas?
 
-[Respuesta]
+[Front y Top deben conservar el mismo ancho X. Front y Right deben conservar la misma altura Z. Top y Right deben conservar la misma profundidad Y.a]
 
 ### P2.4 · ¿Qué información aporta Top y qué información aporta Right?
 
-[Respuesta]
+[Top permite determinar el ancho X y la profundidad Y, además de localizar características desde el frente hacia el fondo, Right permite determinar la profundidad Y y la altura Z, y ayuda a reconocer los cambios de nivel desde el frente hacia el fondo.]
 
 ### P2.5 · Describa verbalmente la pieza imaginada antes de mirar las alternativas.
 
-[Respuesta]
+[Imagino una pieza maciza con forma escalonada]
 
 ### P2.6 · ¿Selecciona A, B, C o D? Justifique antes de comprobar y descarte cada una de las otras tres mediante una vista.
 
-[Respuesta]
-
+[Selecciono A. A coincide con la forma de las tres vistas. B se descarta por la distribución de profundidad del bloque. C se descarta porque presenta una parte elevada adicional en el extremo derecho. D se descarta porque la profundidad del bloque elevado no coincide.
 ### P2.7 · Después de comprobar: ¿fue correcta su selección, qué interpretó incorrectamente si falló y qué vista fue decisiva? Conserve la selección inicial y explique la corrección.
 
-[Respuesta]
+[Sí, mi selección fue correcta. No tuve que corregir mi interpretación. La vista Front fue decisiva para identificar el cambio de altura.]
 
 | Alternativa | Justificación inicial: seleccionar o descartar | Vista que apoya mi decisión |
 |---|---|---|
-| A | [Respuesta] | [Respuesta] |
-| B | [Respuesta] | [Respuesta] |
-| C | [Respuesta] | [Respuesta] |
-| D | [Respuesta] | [Respuesta] |
+| A |  [Se descarta porque la zona elevada no coincide correctamente con las vistas] | [Top y Right] |
+| B | [La distribucion de la zona elevada y la zona de menor altura coincide con las vistas] | [Top, Front y right] |
+| C | [Se descarta porque presenta una zona elevada diferente y una distribucion de alturas incorrectas] | [Top] |
+| D | [Se descarta porque la posicion de la zona elevada y su relacion con la profundidad no coinciden] | [Front] |
 
 ### Evidencias
 
 Modelo correcto proporcionado por el docente durante la comprobación, en orientación pictórica, con nombre y ViewCube visibles.
 
-![P2: Seleccion](S08_P2_Seleccion_Apellido_Nombre.png)
+![P2: Seleccion](S08_P2_Seleccion_Picon_David.png)
 
 
 ## P3 — Detectives de vistas
