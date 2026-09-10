@@ -2,8 +2,8 @@
 
 7 al 12 de septiembre de 2026. V Congreso Universitario. Consolidación de contenidos. Sin evaluaciones.
 
-- Estudiante: [Respuesta]
-- Grupo: [Respuesta]
+- Estudiante: [David Picon Mendez]
+- Grupo: [60]
 - Carpeta o proyecto de Fusion Cloud con acceso docente (sin enlaces privados): [Respuesta]
 - Modelos proporcionados: `S08_P1_Modelo_Observacion.f3d` y, después de P2, `S08_P2_Modelo_Comprobacion.f3d`.
 - Copias personales: `ICT401_S08_P1_Apellido_Nombre` y `ICT401_S08_P2_Apellido_Nombre`.
@@ -21,35 +21,37 @@ X = ancho, Y = profundidad, Z = altura; milímetros. Primer diedro: Right a la i
 
 ### P1.1 · Antes de seleccionar Front, Top o Right: ¿qué características, caras y aristas espera ver en cada vista y qué dimensiones aparecerán horizontal y verticalmente?
 
-[Respuesta]
+[En Front espero observar el ancho y la altura de la pieza, ya que esta vista representa los ejes X–Z. Horizontalmente aparece X y verticalmente Z. En Top espero observar el ancho y la profundidad, correspondientes a X–Y. En Right espero observar la profundidad y la altura, correspondientes a Y–Z.]
 
 ### P1.2 · ¿Cuál vista considera inicialmente más informativa y por qué?
 
-[Respuesta]
+[Considero que Front es inicialmente la vista más informativa porque permite identificar directamente el ancho y los diferentes niveles de altura de la pieza. Sin embargo, Top y Right son necesarias para determinar la profundidad y relacionar correctamente las características tridimensionales.]
 
 ### P1.3 · Después de observar Front, Top y Right: ¿qué predicciones confirmó y qué corrigió? Explique por qué sin borrar su respuesta inicial.
 
-[Respuesta]
+[Yo creo que confirme todas las predicciones]
 
 ### P1.4 · ¿Qué pares de vistas comparten ancho, altura y profundidad? Anote el valor comprobado en milímetros y la arista seleccionada.
 
-[Respuesta]
+[Front y top comparte el ancho de 60mm
+front y right comparten la altura z de 36 mm
+top y right comparten la profundidad y de 64.62 mm]
 
 ### P1.5 · Elija una característica tridimensional: ¿cómo aparece en dos vistas diferentes? Identifique las caras o aristas relacionadas.
 
-[Respuesta]
+[un cambio de nivel puede aparecer por otro lado ]
 
-| Vista | Predicción inicial: características y dimensiones | Observación posterior | Corrección y causa |
+| Vista | Predicción inicial: características y dimensiones | Observación posterior | Correccion y Causa |
 |---|---|---|---|
-| Front | [Respuesta] | [Respuesta] | [Respuesta] |
-| Top | [Respuesta] | [Respuesta] | [Respuesta] |
-| Right | [Respuesta] | [Respuesta] | [Respuesta] |
+| Front | [X=Ancho y Z=Altura] | [El contorno frontal y cambios de altura] | [Comprueba la forma frontal y mide una arista] |
+| Top | [X=Ancho y Y=Profundidad] | [La distribución de la pieza desde arriba] | [Comprueba ancho y profundidad] |
+| Right | [Y=Profundidad y Z=Altura] | [Cambios de profundidad y altura] | [Comprueba profundidad y alturas] |
 
 | Dimensión compartida | Par de vistas | Valor (mm) y arista seleccionada |
 |---|---|---|
-| Ancho | [Respuesta] | [Respuesta] |
-| Altura | [Respuesta] | [Respuesta] |
-| Profundidad | [Respuesta] | [Respuesta] |
+| Ancho | [Front ↔ Top] | [60mm] |
+| Altura | [Top ↔ Right] | [36mm] |
+| Profundidad | [Front ↔ Right] | [20mm] |
 
 ### Evidencias
 
