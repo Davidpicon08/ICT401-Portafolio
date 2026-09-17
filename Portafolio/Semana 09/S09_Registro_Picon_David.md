@@ -2,9 +2,9 @@
 
 14 al 19 de septiembre de 2026.
 
-- Estudiante: [Respuesta]
-- Grupo: [Respuesta]
-- Carpeta o proyecto de Fusion Cloud con acceso docente: [Respuesta]
+- Estudiante: [David Picon Mendez]
+- Grupo: [60]
+- Carpeta o proyecto de Fusion Cloud con acceso docente: [David Pcon]
 - Copias personales: `ICT401_S09_P1_Apellido_Nombre`, `ICT401_S09_P2_Apellido_Nombre`, `ICT401_S09_P3_Apellido_Nombre`.
 
 ## Instrucciones
@@ -21,48 +21,48 @@ X = ancho, Y = profundidad, Z = altura. Trabaje en milímetros. Cuando compare v
 
 ### P1.1 · Dimensiones generales identificadas antes de abrir Fusion
 
-- X total: [Respuesta]
-- Y total: [Respuesta]
-- Z total: [Respuesta]
+- X total: [70 mm]
+- Y total: [40 mm]
+- Z total: [40 mm]
 
 ### P1.2 · Características geométricas identificadas
 
 | Característica | Descripción | Vista(s) que la definen | Dimensiones asociadas |
 |---|---|---|---|
-| 1 | [Respuesta] | [Respuesta] | [Respuesta] |
-| 2 | [Respuesta] | [Respuesta] | [Respuesta] |
-| 3 | [Respuesta] | [Respuesta] | [Respuesta] |
-| 4 | [Respuesta] | [Respuesta] | [Respuesta] |
+| 1 | [Base rectangular  | [Front, Top y Right ] | [ 70 × 40 mm, altura 12 mm] |
+| 2 | [Resalte posterior] | [Front, Top y Right] | [30 mm de ancho, 20 mm de profundidad ] |
+| 3 | [Posición del resalte | [TOP] | [X = 0–30 mm, Y = 20–40 mm ] |
+| 4 | [ Altura final de la pieza ] | [Front y Right| [30 mm] |
 
 ### P1.3 · ¿Qué plano de boceto utilizará primero y por qué?
 
-[Respuesta]
+[Utilizaré primero el plano XZ (Front), porque permite definir el perfil principal de la pieza y establecer el ancho y las alturas principales. Después utilizaré la profundidad indicada por las vistas Top y Right para completar el modelo.]
 
 ### P1.4 · Estrategia inicial de modelado
 
-1. [Respuesta]
-2. [Respuesta]
-3. [Respuesta]
-4. [Respuesta]
-5. [Respuesta]
+1. [Crearé un Sketch en el plano XZ y dibujaré el perfil frontal de la pieza.]
+2. [Aplicaré las dimensiones principales de 70 mm de ancho, 12 mm de altura de la base y 30 mm de altura total.]
+3. Finalizaré el Sketch y realizaré una extrusión de 40 mm para obtener la profundidad total.]
+4. [ Comprobaré que el resalte tenga 30 mm de ancho y 20 mm de profundidad y que esté ubicado en la parte posterior izquierda.
+5. [ Compararé las vistas Front, Top y Right del modelo con el plano para comprobar que la geometría sea correcta.
 
 ### P1.5 · Después de comprobar en Fusion, ¿qué parte de la estrategia funcionó y qué tuvo que corregir?
 
-[Respuesta]
+[La estrategia funcionó correctamente porque comenzar con el perfil frontal permitió definir las dimensiones principales de la pieza. La extrusión permitió obtener la profundidad total. Al comparar las vistas Front, Top y Right con el plano, no fue necesario realizar correcciones importantes.]
 
 ### P1.6 · ¿Qué vista o dimensión permitió detectar la corrección?
 
-[Respuesta]
+[La comparación de las vistas Front, Top y Right permitió comprobar que el modelo coincidía con el plano. Las dimensiones de 70 mm de ancho, 40 mm de profundidad y 30 mm de altura confirmaron que la geometría era correcta.]
 
 ### Evidencias P1
 
 Modelo parcial o final en orientación pictórica, con nombre del diseño y ViewCube visibles.
 
-![P1: Modelo](S09_P1_Modelo_Apellido_Nombre.png)
+![P1: Modelo](S09_P1_Modelo_Picon_David.png)
 
 Captura donde se vea el Sketch, dimensión u operación que mejor representa la estrategia seguida.
 
-![P1: Estrategia](S09_P1_Estrategia_Apellido_Nombre.png)
+![P1: Estrategia](S09_P1_Estrategia_Picon_David.png)
 
 ---
 
