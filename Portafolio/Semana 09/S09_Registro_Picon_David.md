@@ -101,7 +101,7 @@ Sí, ambas estrategias pueden producir la misma geometría final. La diferencia 
 
 Captura del historial/timeline y del modelo obtenido con la estrategia seleccionada.
 
-![P2: Estrategia seleccionada](S09_P2_Estrategia_Apellido_Nombre.png)
+![P2: Estrategia seleccionada](S09_P2_Estrategia_Picon_David.png)
 
 ---
 
