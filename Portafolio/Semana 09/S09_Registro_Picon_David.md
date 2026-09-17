@@ -70,33 +70,32 @@ Captura donde se vea el Sketch, dimensión u operación que mejor representa la 
 
 ### P2.1 · Resuma la estrategia A
 
-[Respuesta]
+La estrategia A consiste en crear primero el perfil principal de la pieza en el plano XZ, utilizando la vista Front. Después se extruye el perfil a toda la profundidad y finalmente se crea la perforación vertical pasante.]
 
 ### P2.2 · Resuma la estrategia B
 
-[Respuesta]
+[La estrategia B consiste en construir primero la base desde un Sketch en XY y extruirla. Después se crea la torre mediante un segundo Sketch y una segunda extrusión con Join. Finalmente se realiza la perforación vertical pasante.]
 
 ### P2.3 · ¿Ambas estrategias pueden producir la misma geometría? Justifique.
 
-[Respuesta]
+Sí, ambas estrategias pueden producir la misma geometría final. La diferencia está en la forma de construirla: la estrategia A parte de un perfil completo, mientras que la estrategia B construye la pieza mediante características sucesivas como la base y la torre.
 
 ### P2.4 · Compare las estrategias
 
 | Criterio | Estrategia A | Estrategia B | ¿Cuál considera mejor y por qué? |
 |---|---|---|---|
-| Número de operaciones | [Respuesta] | [Respuesta] | [Respuesta] |
-| Claridad de intención de diseño | [Respuesta] | [Respuesta] | [Respuesta] |
-| Facilidad de edición | [Respuesta] | [Respuesta] | [Respuesta] |
-| Dependencia entre operaciones | [Respuesta] | [Respuesta] | [Respuesta] |
-| Correspondencia con el plano | [Respuesta] | [Respuesta] | [Respuesta] |
+| Número de operaciones | [Menor cantidad de operaciones] | [ Mayor cantidad de operaciones] | [Respuesta] |
+| Claridad de intención de diseño | [El perfil completo se encuentra en una sola operación] | [Las características están separadas y son fáciles de identificar ] | [Estrategia B, porque permite distinguir claramente la base y la torre.] |
+| Facilidad de edición | [ Los cambios pueden requerir modificar el perfil principal] | [ La base y la torre pueden modificarse por separado ] | [Respuesta] |
+| Dependencia entre operaciones | [Existe mayor dependencia del perfil principal] | [Las características están más separadas] | [ Estrategia B, porque facilita modificar características individuales. ] |
+| Correspondencia con el plano | [ Representa directamente el perfil de la vista Front] | [ Representa la pieza mediante sus características principales] | [Ambas corresponden al plano, pero B facilita identificar cada característica |
 
 ### P2.5 · Si cambia una dimensión principal de la pieza, ¿qué estrategia sería más fácil de modificar? Explique qué Sketch u operación tendría que editar.
 
-[Respuesta]
-
+[La estrategia B sería más fácil de modificar porque la base y la torre se encuentran en características separadas. Por ejemplo, si cambia el ancho de la torre, se puede editar el Sketch utilizado para crear la torre y actualizar la extrusión correspondiente, sin tener que modificar todo el perfil principal.
 ### P2.6 · ¿Cuál estrategia usaría finalmente y por qué?
 
-[Respuesta]
+[Finalmente utilizaría la estrategia B porque permite organizar la pieza mediante características independientes y facilita realizar cambios en el modelo. Además, el timeline permite identificar con mayor claridad la base, la torre y la perforación.]
 
 ### Evidencias P2
 
