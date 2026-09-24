@@ -90,7 +90,7 @@ Modelo 3D en orientación isométrica con nombre y ViewCube visibles.
 
 Captura del Drawing con las tres vistas insertadas y alineadas.
 
-![P2: Plano](S10_P2_Plano_Apellido_Nombre.png)
+![P2: Plano](S10_P2_Plano_Picon_David.png)
 
 ---
 
@@ -100,36 +100,36 @@ Captura del Drawing con las tres vistas insertadas y alineadas.
 
 | Dimensión | Valor | Vista donde se colocó | Justificación |
 |---|---|---|---|
-| Ancho total (X) | [Respuesta] | [Respuesta] | [Respuesta] |
-| Profundidad total (Y) | [Respuesta] | [Respuesta] | [Respuesta] |
-| Altura total (Z) | [Respuesta] | [Respuesta] | [Respuesta] |
+| Ancho total (X) | [80mm] | [front] | [Define el ancho total de la pieza.] |
+| Profundidad total (Y) | [50mm] | [top] | [Define la profundidad total de la pieza.] |
+| Altura total (Z) | [45mm] | [front] | [Define la altura total de la pieza.] |
 
 ### P3.2 · Dimensiones parciales y funcionales
 
 | Característica | Dimensión | Valor | Vista | ¿Repetida en otra vista? |
 |---|---|---|---|---|
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
+| [Base] | [Ancho] | [45] | [front] | [No] |
+| [Base] | [Profundidad] | [15] | [top] | [No] |
+| [Pared vertical] | [altura] | [45] | [front] | [No] |
+| [Pared vertical] | [posicion] | [30] | [top] | [No] |
 
 ### P3.3 · ¿Eliminó alguna cota por redundante? ¿Cuál?
 
-[Respuesta]
+[Sí. Se eliminaron las cotas que repetían una misma dimensión en diferentes vistas. Se dejó cada dimensión una sola vez para evitar información repetida e innecesaria.]
 
 ### P3.4 · ¿Alguna dimensión quedó dentro del contorno de la vista? ¿Qué hizo al respecto?
 
-[Respuesta]
+[Se revisó la ubicación de las cotas y se colocaron fuera del contorno de la vista, manteniendo una separación clara respecto al dibujo. De esta manera se evita que las cotas interfieran con la geometría y se facilita su lectura.]
 
 ### P3.5 · ¿Qué criterio de organización utilizó para disponer las cotas?
 
-[Respuesta]
+Las cotas se organizaron de mayor a menor, desde afuera hacia adentro. Se colocaron fuera del contorno, manteniendo separación entre las líneas de cota y evitando repetir dimensiones. Los números se mantuvieron claros y legibles.]
 
 ### Evidencias P3
 
 Captura del Drawing con las cotas aplicadas.
 
-![P3: Cotización](S10_P3_Cotizacion_Apellido_Nombre.png)
+![P3: Cotización](S10_P3_Cotizacion_Picon_David.png)
 
 Detalle de una zona del plano donde se aprecie la organización de las cotas.
 
