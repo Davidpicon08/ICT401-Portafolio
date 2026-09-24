@@ -133,7 +133,7 @@ Captura del Drawing con las cotas aplicadas.
 
 Detalle de una zona del plano donde se aprecie la organización de las cotas.
 
-![P3: Detalle](S10_P3_Detalle_Apellido_Nombre.png)
+![P3: Detalle](S10_P3_Detalle_Picon_David.png)
 
 ---
 
@@ -141,45 +141,45 @@ Detalle de una zona del plano donde se aprecie la organización de las cotas.
 
 ### P4.1 · Pieza documentada
 
-- Nombre del diseño: [Respuesta]
-- Pieza de referencia: [Respuesta]
+- Nombre del diseño: [S09_P3_Modelo_Picon_David Dibujo]
+- Pieza de referencia: [P3 Semana 9]
 
 ### P4.2 · Vistas generadas
 
 | Vista | Información que comunica | Cotas asignadas |
 |---|---|---|
-| Front | [Respuesta] | [Respuesta] |
-| Top | [Respuesta] | [Respuesta] |
-| Right | [Respuesta] | [Respuesta] |
+| Front | [Muestra principalmente la altura, el perfil de la pieza y el resalte.] | [Ancho total, altura total, posición y altura del resalte.] |
+| Top | [Muestra la distribución de las características sobre la base, incluyendo la perforación y la ranura.] | [Profundidad total, posición del resalte, centro X/Y de la perforación y posición X/Y de la ranura.] |
+| Right | [Permite comprobar la profundidad y las alturas de las características.] | [Profundidad, altura y dimensiones que se necesiten para completar la geometría sin repetir cotas.] |
 
 ### P4.3 · Resumen de cotas aplicadas
 
 | Tipo de dimensión | Cantidad | Ejemplo |
 |---|---|---|
-| Generales | [Respuesta] | [Respuesta] |
-| Parciales | [Respuesta] | [Respuesta] |
-| Funcionales | [Respuesta] | [Respuesta] |
+| Generales | [3] | [Ancho total, profundidad total y altura total] |
+| Parciales | [8] | [Dimensiones del resalte, ranura y diámetro de la perforación |
+| Funcionales | [2] | [Centro X y centro Y de la perforación] |
 
 ### P4.4 · ¿El plano contiene información suficiente para fabricar la pieza? ¿Falta algo?
 
-[Respuesta]
+Sí. El plano contiene las vistas y dimensiones necesarias para representar la pieza y permitir su fabricación. Se incluyen las dimensiones generales, las dimensiones del resalte, la información de la perforación y las dimensiones y posición de la ranura. No se deben agregar cotas repetidas o innecesarias.]
 
 ### P4.5 · Errores encontrados y correcciones realizadas
 
 | Error detectado | Corrección aplicada | Vista afectada |
 |---|---|---|
-| [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] |
+| [Generales] | [Se desplazaron hacia el exterior para mejorar la separación y legibilidad.] | [Front] |
+| [Parciales] | [Se dejó la dimensión únicamente en la vista donde resulta más clara.] | [Front / Top / Right] |
 
 ### Evidencias P4
 
 Drawing completo con vistas y cotas.
 
-![P4: Plano completo](S10_P4_PlanoCompleto_Apellido_Nombre.png)
+![P4: Plano completo](S10_P3_Cotizacion_Picon_David.png)
 
 Comparación del Drawing con el modelo 3D.
 
-![P4: Verificación](S10_P4_Verificacion_Apellido_Nombre.png)
+![P4: Verificación](S10_P4_Verificacion_Picon_David.png)
 
 ---
 
@@ -187,33 +187,37 @@ Comparación del Drawing con el modelo 3D.
 
 La diferencia principal entre documentar una pieza en Semana 9 (reconstrucción desde plano) y documentarla en Semana 10 (generación de vistas desde modelo) es:
 
-[Respuesta]
+[La diferencia principal es que en la Semana 9 se reconstruye una pieza en 3D a partir de un plano técnico, mientras que en la Semana 10 se utiliza el modelo 3D para generar sus vistas técnicas en 2D. En la Semana 10 también se organiza el Drawing y se aplican cotas para comunicar correctamente las dimensiones de la pieza.
+]
 
 Los criterios que utilicé para seleccionar las vistas necesarias fueron:
 
-[Respuesta]
+[Seleccioné las vistas que permitieran mostrar las características principales de la pieza sin repetir información. Tomé en cuenta la forma, el ancho, la profundidad, la altura y la posición de sus elementos. También revisé que cada vista aportara información diferente y complementaria.
+a]
 
 Los principios de acotación normalizada que más influyeron en la claridad de mi plano fueron:
 
-[Respuesta]
+Los principios que más influyeron fueron colocar las cotas fuera del contorno, evitar repetir dimensiones, organizar las cotas de mayor a menor y mantener una separación adecuada entre las líneas de cota. También fue importante que los números fueran claros y legibles para que el plano comunicara correctamente la información de la pieza.
+]
 
 Si tuviera que agregar una vista adicional a una de mis piezas, sería:
 
-[Respuesta]
+[Agregaría una vista isométrica de la pieza, porque permitiría observar de manera general su forma tridimensional y facilitaría la comparación entre el modelo 3D y las vistas técnicas. Esta vista serviría como apoyo visual para comprender mejor la geometría de la pieza.
+]
 
 ## Checklist
 
-- [ ] Seleccioné las vistas necesarias y justifiqué cada una.
-- [ ] Generé las vistas ortogonales correctamente alineadas.
-- [ ] Configuré formato, orientación y escala de manera coherente.
-- [ ] Apliqué dimensiones generales, parciales y funcionales.
-- [ ] Evité cotas repetidas, ambiguas o innecesarias.
-- [ ] Organice las cotas fuera del contorno de las vistas.
-- [ ] El plano contiene información suficiente para fabricar la pieza.
-- [ ] Documenté errores y correcciones sin borrar decisiones iniciales.
-- [ ] Las evidencias se visualizan correctamente en GitHub.
-- [ ] Los Drawing están disponibles en Fusion Cloud con acceso docente.
-- [ ] Completé la reflexión final.
+- [✓ ] Seleccioné las vistas necesarias y justifiqué cada una.
+- [✓ ] Generé las vistas ortogonales correctamente alineadas.
+- [✓ ] Configuré formato, orientación y escala de manera coherente.
+- [ ✓] Apliqué dimensiones generales, parciales y funcionales.
+- [ ✓] Evité cotas repetidas, ambiguas o innecesarias.
+- [✓ ] Organice las cotas fuera del contorno de las vistas.
+- [✓ ] El plano contiene información suficiente para fabricar la pieza.
+- [ ✓] Documenté errores y correcciones sin borrar decisiones iniciales.
+- [✓ ] Las evidencias se visualizan correctamente en GitHub.
+- [ ✓] Los Drawing están disponibles en Fusion Cloud con acceso docente.
+- [✓ ] Completé la reflexión final.
 
 ## Cierre del Portafolio Técnico 2
 
@@ -221,11 +225,11 @@ La revisión del portafolio abarca las **semanas 6 a 10**. El plazo para complet
 
 Antes del cierre verifique:
 
-- [ ] Las fichas de las semanas 6--10 están completas en `Portafolio/semanaXX/`.
-- [ ] Las imágenes y enlaces se visualizan correctamente desde GitHub.
-- [ ] Las correcciones están documentadas sin borrar respuestas iniciales.
-- [ ] Los modelos están disponibles en Fusion Cloud con acceso docente.
-- [ ] Los últimos cambios están publicados en GitHub.
+- [ ✓] Las fichas de las semanas 6--10 están completas en `Portafolio/semanaXX/`.
+- [ ✓] Las imágenes y enlaces se visualizan correctamente desde GitHub.
+- [✓ ] Las correcciones están documentadas sin borrar respuestas iniciales.
+- [✓ ] Los modelos están disponibles en Fusion Cloud con acceso docente.
+- [✓ ] Los últimos cambios están publicados en GitHub.
 
 Commit sugerido: `S10 ejercicios Fusion Apellido Nombre`.
 
