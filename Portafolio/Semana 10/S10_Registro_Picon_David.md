@@ -65,26 +65,26 @@ Modelo 3D en orientación isométrica con nombre y ViewCube visibles.
 
 ### P2.1 · Configuración del Drawing
 
-- Formato seleccionado: [Respuesta]
-- Orientación: [Respuesta]
-- Escala: [Respuesta]
-- Justificación de cada elección: [Respuesta]
+- Formato seleccionado: [A4]
+- Orientación: [HorizontaL]
+- Escala: [1:1]
+- Justificación de cada elección: [Se seleccionó el formato A4 porque permite organizar las tres vistas de la pieza de manera clara. Se utilizó orientación horizontal para disponer correctamente las vistas Front, Top y Right y dejar espacio suficiente para las cotas. Se seleccionó una escala 1:1 para mantener el tamaño real de la pieza y facilitar la lectura de las vistas.]
 
 ### P2.2 · Disposición de vistas
 
 | Vista | Posición en el Drawing | Distancia a la vista adyacente | ¿Alineada correctamente? |
 |---|---|---|---|
-| Front (base) | [Respuesta] | [Respuesta] | [Respuesta] |
-| Top | [Respuesta] | [Respuesta] | [Respuesta] |
-| Right | [Respuesta] | [Respuesta] | [Respuesta] |
+| Front (base) | [Vista principal, ubicada como referencia para las demás vistas] | [Suficiente para colocar las cotas] | [sI] |
+| Top | [Ubicada encima de Front y proyectada desde ella] | [Suficiente para mantener separación y legibilidad] | [sI] |
+| Right | [Ubicada al lado derecho de Front y proyectada desde ella] | [Suficiente para colocar las cotas] | [sI] |
 
 ### P2.3 · ¿Qué problemas de alineación o disposición detectó? ¿Cómo los resolvió?
 
-[Respuesta]
+[Se revisó que las vistas Front, Top y Right estuvieran correctamente alineadas y que no existieran superposiciones. También se verificó que hubiera suficiente separación entre las vistas para poder colocar las cotas posteriormente. Cuando fue necesario, se ajustó la posición de las vistas manteniendo la proyección y correspondencia geométrica con la vista base.]
 
 ### P2.4 · ¿La escala permite legibilidad de todas las vistas? Justifique.
 
-[Respuesta]
+[Sí. La escala seleccionada permite visualizar las tres vistas de forma clara y mantenerlas dentro del formato del Drawing. Las líneas y características principales de la pieza se pueden distinguir correctamente y queda espacio suficiente para incorporar las cotas sin afectar la legibilidad del plano.]
 
 ### Evidencias P2
 
