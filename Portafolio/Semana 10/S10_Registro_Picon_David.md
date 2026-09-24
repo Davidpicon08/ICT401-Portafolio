@@ -2,8 +2,8 @@
 
 21 al 26 de septiembre de 2026.
 
-- Estudiante: [Respuesta]
-- Grupo: [Respuesta]
+- Estudiante: [David Picon Mendez]
+- Grupo: [60]
 - Carpeta o proyecto de Fusion Cloud con acceso docente: [Respuesta]
 - Modelos utilizados: `ICT401_S09_P1_Apellido_Nombre`, `ICT401_S09_P2_Apellido_Nombre`, `ICT401_S09_P3_Apellido_Nombre` u otros equivalentes.
 
@@ -21,44 +21,43 @@ X = ancho, Y = profundidad, Z = altura. Trabaje en milímetros. Cuando compare v
 
 ### P1.1 · Modelo utilizado
 
-- Nombre del diseño en Fusion: [Respuesta]
-- Pieza de referencia (semana de origen): [Respuesta]
+- Nombre del diseño en Fusion: S09_P3_Modelo_Picon_David]
+- Pieza de referencia (semana de origen): [S09_P3_Modelo_Picon_David]
 
 ### P1.2 · Características principales del modelo
 
 | Característica | Descripción | Vista(s) que la comunican |
 |---|---|---|
-| 1 | [Respuesta] | [Respuesta] |
-| 2 | [Respuesta] | [Respuesta] |
-| 3 | [Respuesta] | [Respuesta] |
-| 4 | [Respuesta] | [Respuesta] |
+| 1 | [Base rectangular] | [Front, Top y Right] |
+| 2 | [Pared vertical] | [Front, Top y Righta] |
+| 3 | [Forma general en L] | [front] |
+| 4 | [Profundidad y separación entre la base y la pared] | [top] |
 
 ### P1.3 · Vistas seleccionadas y justificación
 
 | Vista | ¿Es necesaria? | ¿Por qué? | ¿Qué información aporta? |
 |---|---|---|---|
-| Front | [Respuesta] | [Respuesta] | [Respuesta] |
-| Top | [Respuesta] | [Respuesta] | [Respuesta] |
-| Right | [Respuesta] | [Respuesta] | [Respuesta] |
-| Otra: [nombre] | [Respuesta] | [Respuesta] | [Respuesta] |
-
+| Front | si] | [Permite identificar claramente la forma principal de la pieza.] | [Muestra la forma en L.] |
+| Top | [Si] | [Permite complementar la información que no se observa completamente desde Front.] | [Muestra la profundidad y la separación entre la base y la pared] |
+| Right | [Si] | [Permite comprobar la geometría lateral de la pieza.] | [Confirma la altura y la posición de la pared.] |
+| Otra: [No] | [No es necesaria otra vista para comunicar la pieza.] | [Front, Top y Right proporcionan la información necesaria.] | 
 ### P1.4 · ¿Algual vista resultó redundante? ¿Cuál y por qué?
 
-[Respuesta]
+[No. Ninguna de las vistas seleccionadas resultó redundante, ya que Front, Top y Right aportan información diferente y complementaria sobre la geometría de la pieza. En conjunto permiten identificar la forma, profundidad, altura y posición de la pared.]
 
 ### P1.5 · Método utilizado para generar las vistas en Fusion
 
-[Respuesta]
+Primero abrí el modelo construido en la Semana 9. Después generé las vistas ortogonales utilizando el entorno Drawing o la función de vistas del modelo en Fusion. Seleccioné las vistas Front, Top y Right y posteriormente comprobé que mantuvieran la correspondencia geométrica con el modelo 3D. Finalmente revisé la información que aporta cada vista y verifiqué que no fuera necesario agregar otra vista.]
 
 ### Evidencias P1
 
 Captura de las vistas ortogonales generadas desde el modelo.
 
-![P1: Vistas](S10_P1_Vistas_Apellido_Nombre.png)
+![P1: Vistas](S10_P1_Vistas_Picon_David.png)
 
 Modelo 3D en orientación isométrica con nombre y ViewCube visibles.
 
-![P1: Modelo](S10_P1_Modelo_Apellido_Nombre.png)
+![P1: Modelo](S10_P1_Modelo_Picon_David.png)
 
 ---
 
