@@ -101,32 +101,32 @@ P1 no requiere crear un `Drawing`; la decisión se registra antes de pasar a la 
 
 | Elemento | Decisión aplicada |
 |---|---|
-| Vista donde se indica el corte | [Respuesta] |
-| Posición del plano de corte | [Respuesta] |
-| Dirección de observación | [Respuesta] |
-| Identificación | [Respuesta] |
-| Tipo de corte o sección | [Respuesta] |
+| Vista donde se indica el corte | Front] |
+| Posición del plano de corte | [En la zona central de la pieza, atravesando la característica interior que se desea mostrar.] |
+| Dirección de observación | [Hacia el interior de la pieza, siguiendo la dirección indicada por las flechas del plano de corte.] |
+| Identificación | [A–A] |
+| Tipo de corte o sección | Corte completo] |
 
 ### P2.2 · Rayado
 
-- ¿Qué superficies quedan cortadas?: [Respuesta]
-- ¿Qué superficies no deben rayarse?: [Respuesta]
-- ¿Cómo diferenció zonas o componentes adyacentes?: [Respuesta]
-- ¿Qué separación utilizó entre las líneas de rayado?: [Respuesta]
-- ¿Cómo evitó que el rayado invadiera textos o cotas?: [Respuesta]
+- ¿Qué superficies quedan cortadas?: [Las superficies sólidas que son atravesadas directamente por el plano de corte.]
+- ¿Qué superficies no deben rayarse?: [Las cavidades, espacios vacíos y zonas que no son atravesadas por el plano de corte.]
+- ¿Cómo diferenció zonas o componentes adyacentes?: [Manteniendo las zonas separadas y utilizando un rayado diferenciado cuando corresponde.]
+- ¿Qué separación utilizó entre las líneas de rayado?: Una separación uniforme y regular entre las líneas.]
+- ¿Cómo evitó que el rayado invadiera textos o cotas?: [Dejando libres las zonas donde aparecen textos y cotas para mantener la información legible.]
 
 ### P2.3 · Diferencia conceptual
 
 Explique con sus palabras la diferencia entre un corte y una sección.
 
-[Respuesta]
+[Un corte representa una pieza como si hubiera sido atravesada por un plano para mostrar su geometría interior. La sección representa principalmente la forma que resulta del material atravesado por ese plano. En ambos casos, las superficies cortadas se identifican mediante rayado y las cavidades vacías permanecen sin rayar.]
 
 ### P2.4 · Correcciones
 
 | Problema detectado | Corrección aplicada | Motivo de la corrección |
 |---|---|---|
-| [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] |
+| [La dirección de observación no estaba claramente indicada.] | Se agregaron flechas en los extremos del plano de corte.] | Para indicar correctamente hacia dónde se observa la sección] |
+| [El rayado podía confundirse con las cavidades interiores.] | [Se dejó sin rayar el espacio vacío y se rayaron únicamente las superficies atravesadas.] | [Para diferenciar el material cortado de las cavidades.] |
 
 ### Evidencias P2
 
@@ -139,9 +139,9 @@ Un dibujo sin flechas, letras o rayado no demuestra el procedimiento completo.
 
 Estas evidencias no tienen que ser capturas del espacio `Drawing`; el `Drawing` se trabaja en P3.
 
-![P2: Croquis del corte](S11_P2_CroquisCorte_Apellido_Nombre.png)
+![P2: Croquis del corte](S11_P2_CroquisCorte_Picon_David.png)
 
-![P2: Sección identificada](S11_P2_Seccion_Apellido_Nombre.png)
+![P2: Sección identificada](S11_P2_Seccion_Picon_David.png)
 
 ## P3 — Corte o sección en Fusion
 
