@@ -2,8 +2,8 @@
 
 28 de septiembre al 3 de octubre de 2026.
 
-- Estudiante: [Respuesta]
-- Grupo: [Respuesta]
+- Estudiante: [David Picon Mendez]
+- Grupo: [60]
 - Carpeta o proyecto de Fusion Cloud con acceso docente: [Respuesta]
 - Drawing o modelo de referencia de Semana 10: [Respuesta]
 - Modelo utilizado: [Nombre del diseño]
@@ -38,7 +38,7 @@ Trabaje sobre un modelo o plano desarrollado en Semana 10. Use milímetros, orie
 
 ### P1.1 · Modelo utilizado
 
-- Nombre del diseño en Fusion: [Respuesta]
+- Nombre del diseño en Fusion: [S09_P3_Modelo_Picon_David]
 - Pieza de referencia y semana de origen: [Respuesta]
 - Características interiores observadas: [Respuesta]
 
@@ -46,25 +46,25 @@ Trabaje sobre un modelo o plano desarrollado en Semana 10. Use milímetros, orie
 
 | Característica | Vista donde aparece | ¿Se comunica claramente? | Problema detectado |
 |---|---|---|---|
-| 1 | [Respuesta] | [Respuesta] | [Respuesta] |
-| 2 | [Respuesta] | [Respuesta] | [Respuesta] |
-| 3 | [Respuesta] | [Respuesta] | [Respuesta] |
-| 4 | [Respuesta] | [Respuesta] | [Respuesta] |
+| 1 | Front] | [Si] | [La forma exterior se observa claramente, pero parte de la geometría interior queda oculta.] |
+| 2 | Top] | Parcialmente] | [Permite observar la forma superior, pero no muestra con claridad la profundidad de la cavidad interior.] |
+| 3 | Right] | Parcialmente] | [Se identifica parte de la geometría, pero algunas características internas quedan ocultas.] |
+| 4 | [Right, Front, Top] | [No completamente] | [Las vistas principales requieren líneas ocultas para interpretar correctamente la geometría interior.] |
 
 ### P1.3 · Comparación de alternativas
 
 | Alternativa | Ventaja | Limitación |
 |---|---|---|
-| Vista ordinaria | [Respuesta] | [Respuesta] |
-| Vista con líneas ocultas | [Respuesta] | [Respuesta] |
-| Vista seccionada | [Respuesta] | [Respuesta] |
+| Vista ordinaria | [Permite observar rápidamente la forma exterior de la pieza.] | La geometría interior no se puede interpretar completamente.] |
+| Vista con líneas ocultas | [Permite representar características interiores que no son visibles directamente.] | Puede generar muchas líneas y hacer más difícil interpretar la forma interna.] |
+| Vista seccionada | [Expone directamente la geometría interior y permite identificar las superficies atravesadas mediante el rayado.] | [Requiere definir correctamente el plano de corte y la dirección de observación.] |
 
 ### P1.4 · Decisión de representación
 
-- Tipo de representación elegido: [Respuesta]
-- Vista desde la que se realizará: [Respuesta]
-- Posición aproximada del plano de corte: [Respuesta]
-- Justificación técnica: [Respuesta]
+- Tipo de representación elegido: [Corte completo / vista seccionada.]
+- Vista desde la que se realizará: [Front]
+- Posición aproximada del plano de corte: [Por la zona central de la pieza, atravesando la característica interior que se desea mostrar.]
+- Justificación técnica: [Se selecciona una vista seccionada porque permite mostrar directamente la geometría interior que queda oculta en las vistas ordinarias. De esta manera se reduce la dependencia de líneas ocultas y se facilita la interpretación de la cavidad y de las superficies atravesadas por el plano de corte.]
 
 ### Evidencias P1
 
@@ -77,7 +77,7 @@ Una captura aislada del modelo no demuestra la comparación solicitada.
 
 P1 no requiere crear un `Drawing`; la decisión se registra antes de pasar a la documentación técnica.
 
-![P1: Modelo](S11_P1_Modelo_Apellido_Nombre.png)
+![P1: Modelo](S11_P1_Modelo_Picon_David.png)
 
 ![P1: Comparación](S11_P1_Comparacion_Apellido_Nombre.png)
 
