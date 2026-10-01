@@ -162,38 +162,38 @@ Estas evidencias no tienen que ser capturas del espacio `Drawing`; el `Drawing` 
 
 ### P3.1 · Configuración
 
-- Drawing utilizado: [Respuesta]
+- Drawing utilizado: [Semana 10]
 - Espacio de trabajo utilizado: `Drawing`
 - Herramienta utilizada: `Section View`
-- Vista de origen: [Respuesta]
-- Tipo de corte: [Respuesta]
-- Escala: [Respuesta]
-- Identificación: [Respuesta]
-- Dirección de observación: [Respuesta]
+- Vista de origen: [front]
+- Tipo de corte: [Corte completo.]
+- Escala: [La misma escala utilizada en el Drawing, ajustándola si es necesario para mantener la sección legible]
+- Identificación: [A-A]
+- Dirección de observación: [La indicada mediante las flechas del plano de corte realizado en P2.]
 
 ### P3.2 · Verificación con el modelo
 
 | Elemento | ¿Coincide con el modelo? | Evidencia o corrección |
 |---|---|---|
-| Cavidad o agujero | [Respuesta] | [Respuesta] |
-| Ranura o escalón | [Respuesta] | [Respuesta] |
-| Contorno exterior | [Respuesta] | [Respuesta] |
-| Superficies rayadas | [Respuesta] | [Respuesta] |
-| Líneas visibles | [Respuesta] | [Respuesta] |
+| Cavidad o agujero | [Sí] | [La sección permite observar la geometría interior y se comprobó comparándola con el modelo 3D.] |
+| Ranura o escalón | [Sí] | [Se verificó que la forma representada en la sección corresponde con la geometría del modelo.] |
+| Contorno exterior | [Sí] | [El contorno de la sección mantiene la forma exterior de la pieza.] |
+| Superficies rayadas | [Sí] | [El rayado aparece únicamente sobre las superficies atravesadas por el plano de corte.] |
+| Líneas visibles | [Sí] | [Se conservaron las líneas necesarias para representar correctamente la geometría de la pieza.] |
 
 ### P3.3 · Líneas ocultas
 
-- ¿Qué líneas ocultas dejaron de ser necesarias?: [Respuesta]
-- ¿Qué líneas visibles debieron conservarse?: [Respuesta]
-- ¿Detectó alguna contradicción entre vistas?: [Respuesta]
-- ¿Cómo verificó la dirección de observación?: [Respuesta]
+- ¿Qué líneas ocultas dejaron de ser necesarias?: [Las líneas ocultas relacionadas con la cavidad que ahora queda expuesta mediante la sección.]
+- ¿Qué líneas visibles debieron conservarse?: [Las líneas que representan el contorno exterior y las características que continúan siendo necesarias para interpretar la pieza.]
+- ¿Detectó alguna contradicción entre vistas?: [No se detectaron contradicciones después de comparar la sección con las vistas Front, Top y Right y con el modelo 3D.]
+- ¿Cómo verificó la dirección de observación?: [Se comparó la dirección de la sección con las flechas definidas en el croquis A–A de P2 y posteriormente con la geometría interior del modelo en Design.]
 
 ### P3.4 · Errores y correcciones
 
 | Error detectado | Evidencia que lo reveló | Corrección aplicada |
 |---|---|---|
-| [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] |
+| [La sección necesitaba ajustar su posición para mostrar correctamente la característica interior.] | [Comparación entre la sección del Drawing y el modelo 3D.] | [Se ajustó la posición de la línea de corte siguiendo el croquis realizado en P2.] |
+| [Algunas líneas podían dificultar la lectura de la sección.] | [Revisión visual del Drawing.] | [Se ajustó la visibilidad de las líneas ocultas innecesarias y se mantuvieron las líneas necesarias.] |
 
 ### Evidencias P3
 
@@ -204,9 +204,9 @@ Estas evidencias no tienen que ser capturas del espacio `Drawing`; el `Drawing` 
 
 La segunda imagen debe permitir comparar modelo y plano, no solo mostrar una pantalla genérica de Fusion.
 
-![P3: Plano con sección](S11_P3_PlanoSeccion_Apellido_Nombre.png)
+![P3: Plano con sección](S11_P3_PlanoSeccion_Picon_David.png)
 
-![P3: Verificación con modelo](S11_P3_ModeloVerificacion_Apellido_Nombre.png)
+![P3: Verificación con modelo](S11_P3_ModeloVerificacion_Picon_David.png)
 
 ## P4 — Detalle ampliado y tolerancia introductoria
 
