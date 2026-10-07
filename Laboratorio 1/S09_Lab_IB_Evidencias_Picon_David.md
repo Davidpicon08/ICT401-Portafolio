@@ -172,12 +172,12 @@ La tabla siguiente registra la evaluacion aplicada exclusivamente a esta ficha y
 
 | Criterio oficial | Valor maximo | Puntaje obtenido | Observaciones de evaluacion |
 |---|---:|---:|---|
-| Interpretacion correcta del plano o conjunto de vistas | 2.00 | 1.00 | Puntaje parcial: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
-| Reconstruccion tridimensional coherente | 2.50 | 1.25 | Puntaje parcial: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
-| Aplicacion de restricciones y dimensiones | 1.50 | 0.38 | Puntaje parcial: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
-| Precision geometrica y correspondencia con el plano | 2.00 | 0.50 | Puntaje parcial: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
-| Organizacion, nomenclatura y archivo editable | 1.00 | 0.00 | Puntaje 0,00: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
-| Presentacion y cumplimiento del enunciado | 1.00 | 0.25 | Puntaje parcial: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
+| Interpretacion correcta del plano o conjunto de vistas | 2.00 | 1.00 | Puntaje parcial: En A1-A5 y C1, revisar la interpretacion de dimensiones, caracteristicas y vistas. Observacion especifica: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
+| Reconstruccion tridimensional coherente | 2.50 | 1.25 | Puntaje parcial: En B1-B3, D1 y D2, revisar la secuencia de operaciones, el modelo y la correspondencia de vistas. Observacion especifica: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
+| Aplicacion de restricciones y dimensiones | 1.50 | 0.38 | Puntaje parcial: En B1, D3 y C2, revisar restricciones, cotas y las cinco verificaciones dimensionales. Observacion especifica: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
+| Precision geometrica y correspondencia con el plano | 2.00 | 0.50 | Puntaje parcial: En C1, C2, D2 y D5, revisar la correspondencia geometrica y las mediciones documentadas. Observacion especifica: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
+| Organizacion, nomenclatura y archivo editable | 1.00 | 0.00 | Puntaje 0,00: En la identificacion, ruta, nombre del archivo, acceso docente y commit, revisar la organizacion de la entrega. Observacion especifica: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
+| Presentacion y cumplimiento del enunciado | 1.00 | 0.25 | Puntaje parcial: En D1-D5 y el checklist, revisar la integridad de las evidencias y el cumplimiento formal del enunciado. Observacion especifica: La ficha declara Z=12 en vez de Z=42; C2 esta vacia, el checklist no esta marcado y la ruta no es oficial. |
 
 **Total obtenido: 3.38 / 10,00 %**
 
