@@ -164,11 +164,11 @@ Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecu
 | Elemento | Posición final | ¿Está alineado o relacionado correctamente? | Corrección realizada |
 |---|---|---|---|
 | Front | [zona lateral de la hoja] | [si] | [Se cambio la orientacion de la hoja] |
-| Top | [Respuesta] | [Respuesta] | [Respuesta] |
-| Right | [Respuesta] | [Respuesta] | [Respuesta] |
+| Top | [zona central de la hoja] | [si] | [Se cambio la orientacion y tamaño de la hoja] |
+| Right | [zona baja de la hoja] | [si] | [Se cambio la orientacion y tamaño de la hoja] |
 | Corte o sección | [Respuesta] | [Respuesta] | [Respuesta] |
-| Detalle | [Respuesta] | [Respuesta] | [Respuesta] |
-| Cajetín | [Respuesta] | [Respuesta] | [Respuesta] |
+| Detalle | [lado izquierdo] | [Si] | [Se separo un poco] |
+| Cajetín | [abajo a la derecha] | [si] | [Se hizo mas grande] |
 
 ### Evidencias P2
 
@@ -178,7 +178,7 @@ Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecu
 - `S12_P2_Cajetin_Apellido_Nombre.png`: recorte legible del cajetín completo, incluyendo código ICT401, título, autoría, fecha, unidades y escala.
 - `S12_P2_Correcciones_Apellido_Nombre.png`: comparación antes/después o lámina que muestre una corrección real de distribución.
 
-![P2: Distribución](S12_P2_HojaDistribucion_Apellido_Nombre.png)
+![P2: Distribución](S12_P2_HojaDistribucion_Picon_David.png)
 
 ![P2: Cajetín](S12_P2_Cajetin_Apellido_Nombre.png)
 
