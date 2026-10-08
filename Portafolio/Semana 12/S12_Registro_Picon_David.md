@@ -178,11 +178,11 @@ Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecu
 - `S12_P2_Cajetin_Apellido_Nombre.png`: recorte legible del cajetín completo, incluyendo código ICT401, título, autoría, fecha, unidades y escala.
 - `S12_P2_Correcciones_Apellido_Nombre.png`: comparación antes/después o lámina que muestre una corrección real de distribución.
 
-![P2: Distribución](S12_P2_HojaDistribucion_Picon_David.png)
+![P2: Distribución](S12_P2_HojaDistribucion_Picon_David.PNG)
 
-![P2: Cajetín](S12_P2_Cajetin_Apellido_Nombre.png)
+![P2: Cajetín](S12_P2_Cajetin_Picon_David.PNG)
 
-![P2: Corrección](S12_P2_Correcciones_Apellido_Nombre.png)
+![P2: Corrección](S12_P2_Correcciones_Picon_David.PNG)
 
 ## P3 — Escala, legibilidad y control de anotaciones
 
