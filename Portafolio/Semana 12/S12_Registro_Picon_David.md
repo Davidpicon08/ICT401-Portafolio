@@ -271,8 +271,8 @@ Si no cambió la escala, la ficha debe explicar por qué la escala inicial conse
 
 | Archivo | Comando utilizado | Unidades | Hoja/orientación | ¿Coincide con Drawing? | Corrección |
 |---|---|---|---|---|---|
-| PDF | [Respuesta] | [Respuesta] | [Respuesta] | [Sí/No] | [Respuesta] |
-| DXF | [Respuesta] | [Respuesta] | [Respuesta] | [Sí/No/No solicitado] | [Respuesta] |
+| PDF | [output] | [mm] | [vertical] | [Sí] | [Ninguna] |
+| DXF | [output] | [mm] | [vertical] | [No] | [No contiene las cotas y unas vistas] |
 
 ### Evidencias P4
 
@@ -283,13 +283,13 @@ Si no cambió la escala, la ficha debe explicar por qué la escala inicial conse
 - `S12_P4_DXF_Apellido_Nombre.png`: DXF abierto o ventana de exportación con nombre y unidades, cuando se solicite.
 - `S12_P4_Comparacion_Apellido_Nombre.png`: una sola lámina con recortes etiquetados `Fusion Drawing`, `PDF` y `DXF`.
 
-![P4: Drawing](S12_P4_Drawing_Apellido_Nombre.png)
+![P4: Drawing](S12_P4_Drawing_Picon_David.PNG)
 
-![P4: PDF](S12_P4_PDF_Apellido_Nombre.png)
+![P4: PDF](S12_P4_PDF_Picon_David.PNG)
 
-![P4: DXF](S12_P4_DXF_Apellido_Nombre.png)
+![P4: DXF](S12_P4_DXF_Picon_David.PNG)
 
-![P4: Comparación](S12_P4_Comparacion_Apellido_Nombre.png)
+![P4: Comparación](S12_P4_Comparacion_Picon_David.PNG)
 
 ## P5 — Laboratorio integrador II-A, impresión y entrega
 
