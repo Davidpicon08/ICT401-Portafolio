@@ -2,12 +2,12 @@
 
 5 al 10 de octubre de 2026.
 
-- Estudiante: [Respuesta]
-- Grupo: [Respuesta]
+- Estudiante: [David Picon Mendez]
+- Grupo: [60]
 - Proyecto de Fusion Cloud con acceso docente: [Respuesta]
 - Drawing de referencia de Semana 11: [Respuesta]
 - Modelo utilizado: [Nombre del diseño]
-- Laboratorio integrador II-A: [Respuesta]
+- Laboratorio integrador II-A: [David Picon Mendez]
 - Fase 2 del Proyecto: [Respuesta]
 
 ## Instrucciones
@@ -80,36 +80,35 @@ Si la plantilla o la versión de Fusion no permite mostrar un dato, escriba la l
 
 ### P1.1 · Estado de referencia
 
-- Nombre del proyecto Fusion: [Respuesta]
-- Nombre del diseño: [Respuesta]
-- Nombre del Drawing: [Respuesta]
-- Formato actual: [Respuesta]
-- Orientación actual: [Respuesta]
-- Unidades: [Respuesta]
-- Escala actual de la hoja o vistas: [Respuesta]
+- Nombre del proyecto Fusion: [S09_P3_Modelo_Picon_David Dibujo]
+- Nombre del diseño: [S09_P3_Modelo_Picon_David Dibujo]
+- Nombre del Drawing: [S09_P3_Modelo_Picon_David Dibujo]
+- Formato actual: [A3]
+- Orientación actual: [Horizontal]
+- Unidades: [mm]
+- Escala actual de la hoja o vistas: [A3]
 
 ### P1.2 · Diagnóstico
 
 | Problema observado | Ubicación exacta en la hoja | Por qué afecta la entrega | Corrección prevista |
 |---|---|---|---|
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
+| Hay demasiado espacio vacío alrededor de las vistas. | Zona central y superior de la hoja. | La distribución no aprovecha bien el área útil del formato. | Reorganizar las vistas y ajustar su posición para aprovechar mejor la hoja. |
+| Las cotas están bastante concentradas alrededor de la vista principal. | Parte superior y central de la vista principal. | Puede dificultar la lectura y generar una distribución poco clara de las anotaciones. | Separar y reorganizar las cotas manteniendo su relación con las vistas. |
+| El cajetín presenta información con texto pequeño y algunos campos poco claros. | Parte inferior derecha de la hoja. | Puede dificultar la identificación del plano y la lectura de la información técnica. | Editar el cajetín y revisar el tamaño y distribución de la información. |
 
 ### P1.3 · Comparación de alternativas
 
 | Alternativa | Ventaja | Limitación | ¿La selecciono? |
 |---|---|---|---|
-| [Respuesta] | [Respuesta] | [Respuesta] | [Sí/No] |
-| [Respuesta] | [Respuesta] | [Respuesta] | [Sí/No] |
+| A4 horizontal | Permite mantener una distribución adecuada de las vistas y aprovechar mejor el espacio disponible. | Tiene menos área disponible para separar las vistas y cotas. | Sí |
+| A3 horizontal | Ofrece más espacio para distribuir las vistas, cotas y anotaciones. | Para esta pieza puede dejar demasiado espacio vacío si se mantiene una escala pequeña. | No |
 
-- Formato seleccionado: [Respuesta]
-- Orientación seleccionada: [Respuesta]
-- Escala inicial seleccionada: [Respuesta]
-- Justificación técnica: [Respuesta]
-- Criterio de ISO 5457 aplicado: [Respuesta]
-- ¿Qué parte de la selección es una decisión didáctica de la plantilla?: [Respuesta]
-
+- **Formato seleccionado:** A4
+- **Orientación seleccionada:** Horizontal
+- **Escala inicial seleccionada:** 1:1
+- **Justificación técnica:** Se selecciona un formato A4 horizontal porque la pieza y sus vistas pueden organizarse en la hoja manteniendo una escala 1:1 y una lectura clara de las cotas, anotaciones y cajetín.
+- **Criterio de ISO 5457 aplicado:** Seleccionar un formato y orientación que permitan utilizar adecuadamente la zona útil de la hoja, conservar un marco y ubicar correctamente el cajetín.
+- **¿Qué parte de la selección es una decisión didáctica de la plantilla?:** La comparación entre las alternativas disponibles y la selección de una de ellas como ejercicio formativo corresponde a una decisión didáctica de la actividad; la norma se utiliza como criterio de revisión del formato y la presentación.
 ### Evidencias P1
 
 **Qué debe contener cada imagen:**
@@ -120,11 +119,11 @@ Si la plantilla o la versión de Fusion no permite mostrar un dato, escriba la l
 
 Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecuado para el plano.
 
-![P1: Plano inicial](S12_P1_PlanoInicial_Apellido_Nombre.png)
+![P1: Plano inicial](S12_P1_PlanoInicial_Picon_David.png)
 
-![P1: Diagnóstico](S12_P1_Diagnostico_Apellido_Nombre.png)
+![P1: Diagnóstico](S12_P1_Diagnostico_Picon_David.png)
 
-![P1: Decisión de formato](S12_P1_DecisionFormato_Apellido_Nombre.png)
+![P1: Decisión de formato](S12_P1_DecisionFormato_Picon_David.png)
 
 ## P2 — Aplicación de hoja, distribución y cajetín
 
