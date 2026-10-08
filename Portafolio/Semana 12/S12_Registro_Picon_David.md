@@ -52,12 +52,11 @@ Use las referencias normativas disponibles en el aula virtual como criterios de 
 
 | Referencia | Apartado o criterio aplicado | Evidencia asociada | Resultado o limitación |
 |---|---|---|---|
-| ISO 5457 | [Respuesta] | [Nombre de imagen o captura] | [Conforme/Limitación] |
-| INTE/ISO 7200:2008 | [Respuesta] | [Nombre de imagen o captura] | [Conforme/Limitación] |
-| ISO 128-1/128-3 | [Respuesta] | [Nombre de imagen o captura] | [Conforme/Limitación] |
-| ISO 129-1 | [Respuesta] | [Nombre de imagen o captura] | [Conforme/Limitación] |
-| ISO 16792:2021 | [Respuesta] | [Nombre de imagen o captura] | [Conforme/Limitación] |
-
+| ISO 5457 | Selección del formato A3, orientación horizontal y organización de la hoja | S12_P2_HojaDistribucion_Apellido_Nombre.png | Conforme |
+| INTE/ISO 7200:2008 | Organización y completado de los campos de identificación del cajetín | S12_P2_Cajetin_Apellido_Nombre.png | Conforme |
+| ISO 128-1/128-3 | Conservación de la alineación y relación entre las vistas del plano | S12_P2_HojaDistribucion_Apellido_Nombre.png | Conforme |
+| ISO 129-1 | Organización, ubicación y legibilidad de las cotas | S12_P2_Correcciones_Apellido_Nombre.png | Conforme |
+| ISO 16792:2021 | Correspondencia entre el modelo, el Drawing y la documentación del plano | S12_P2_HojaDistribucion_Apellido_Nombre.png | Conforme |
 Si la plantilla o la versión de Fusion no permite mostrar un dato, escriba la limitación concreta. Las medidas propias de la actividad deben identificarse como decisiones didácticas, no como dimensiones ISO.
 
 ## P1 — Diagnóstico del plano y selección del formato
@@ -100,7 +99,7 @@ Si la plantilla o la versión de Fusion no permite mostrar un dato, escriba la l
 
 | Alternativa | Ventaja | Limitación | ¿La selecciono? |
 |---|---|---|---|
-| A4 horizontal | Permite mantener una distribución adecuada de las vistas y aprovechar mejor el espacio disponible. | Tiene menos área disponible para separar las vistas y cotas. | Sí |
+| A4 vertical | Permite mantener una distribución adecuada de las vistas y aprovechar mejor el espacio disponible. | Tiene menos área disponible para separar las vistas y cotas. | Sí |
 | A3 horizontal | Ofrece más espacio para distribuir las vistas, cotas y anotaciones. | Para esta pieza puede dejar demasiado espacio vacío si se mantiene una escala pequeña. | No |
 
 - **Formato seleccionado:** A4
@@ -147,24 +146,24 @@ Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecu
 
 ### P2.1 · Configuración aplicada
 
-- Formato final de la hoja: [Respuesta]
-- Orientación: [Respuesta]
-- Unidades: [Respuesta]
-- Escala escrita en el cajetín: [Respuesta]
-- Escala configurada en las vistas: [Respuesta]
-- ¿Coinciden ambas escalas?: [Sí/No]
-- Campos completados del cajetín: [Respuesta]
-- Número de identificación del documento: [Respuesta]
-- Fecha de emisión o entrega: [Respuesta]
-- Autor: [Respuesta]
-- Estado o revisión: [Respuesta]
-- Campos normativos no disponibles en Fusion: [Respuesta]
+-- Formato final de la hoja: A4
+- Orientación: Vertical
+- Unidades: Milímetros (mm)
+- Escala escrita en el cajetín: 1:1
+- Escala configurada en las vistas: 1:1
+- ¿Coinciden ambas escalas?: Sí
+- Campos completados del cajetín: código ICT401, título de la pieza, nombre del estudiante, fecha, unidades y escala
+- Número de identificación del documento: ICT401
+- Fecha de emisión o entrega: 08/10/2026
+- Autor: Picon David
+- Estado o revisión: Revisión inicial
+- Campos normativos no disponibles en Fusion: No identificados
 
 ### P2.2 · Distribución
 
 | Elemento | Posición final | ¿Está alineado o relacionado correctamente? | Corrección realizada |
 |---|---|---|---|
-| Front | [Respuesta] | [Respuesta] | [Respuesta] |
+| Front | [zona lateral de la hoja] | [si] | [Se cambio la orientacion de la hoja] |
 | Top | [Respuesta] | [Respuesta] | [Respuesta] |
 | Right | [Respuesta] | [Respuesta] | [Respuesta] |
 | Corte o sección | [Respuesta] | [Respuesta] | [Respuesta] |
