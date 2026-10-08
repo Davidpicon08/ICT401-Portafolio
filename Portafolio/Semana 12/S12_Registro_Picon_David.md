@@ -317,34 +317,33 @@ Si no cambió la escala, la ficha debe explicar por qué la escala inicial conse
 
 ### P5.1 · Checklist
 
-- [ ] El modelo y el Drawing corresponden a la misma pieza.
-- [ ] El formato y la orientación son adecuados.
-- [ ] El cajetín está completo y legible.
-- [ ] El formato, marco y zona de identificación fueron revisados con el criterio de ISO 5457.
-- [ ] Los campos del cajetín fueron contrastados con INTE/ISO 7200:2008 y las limitaciones quedaron registradas.
-- [ ] La escala del cajetín coincide con la configuración del plano.
-- [ ] Las vistas están alineadas y no falta información necesaria.
-- [ ] El corte, la sección y el detalle conservan su identificación.
-- [ ] Las cotas y tolerancias son legibles y no están superpuestas.
-- [ ] Las cotas necesarias aparecen una sola vez, salvo indicación auxiliar, y se revisaron con ISO 129-1.
-- [ ] El PDF abre correctamente y coincide con el Drawing.
-- [ ] El DXF fue generado y revisado cuando corresponde.
-- [ ] La previsualización de impresión no presenta recortes ni deformaciones.
-- [ ] La ficha y las imágenes tienen la nomenclatura solicitada.
-- [ ] El enlace de Fusion Cloud tiene acceso docente.
-- [ ] Modelo, Drawing y archivos exportados no presentan contradicciones y la revisión o versión quedó identificada.
-- [ ] La Fase 2 del Proyecto fue entregada según su enunciado.
+- [✓ ] El modelo y el Drawing corresponden a la misma pieza.
+- [✓ ] El formato y la orientación son adecuados.
+- [✓ ] El cajetín está completo y legible.
+- [✓ ] El formato, marco y zona de identificación fueron revisados con el criterio de ISO 5457.
+- [✓ ] Los campos del cajetín fueron contrastados con INTE/ISO 7200:2008 y las limitaciones quedaron registradas.
+- [ ✓] La escala del cajetín coincide con la configuración del plano.
+- [ ✓] Las vistas están alineadas y no falta información necesaria.
+- [✓ ] El corte, la sección y el detalle conservan su identificación.
+- [✓ ] Las cotas y tolerancias son legibles y no están superpuestas.
+- [✓ ] Las cotas necesarias aparecen una sola vez, salvo indicación auxiliar, y se revisaron con ISO 129-1.
+- [✓ ] El PDF abre correctamente y coincide con el Drawing.
+- [✓ ] El DXF fue generado y revisado cuando corresponde.
+- [✓ ] La previsualización de impresión no presenta recortes ni deformaciones.
+- [✓ ] La ficha y las imágenes tienen la nomenclatura solicitada.
+- [✓ ] El enlace de Fusion Cloud tiene acceso docente.
+- [✓ ] Modelo, Drawing y archivos exportados no presentan contradicciones y la revisión o versión quedó identificada.
+- [✓] La Fase 2 del Proyecto fue entregada según su enunciado.
 
 ### P5.2 · Revisión por pares
 
 | Criterio | Observación recibida | Corrección aplicada |
 |---|---|---|
-| Formato y orientación | [Respuesta] | [Respuesta] |
-| Cajetín | [Respuesta] | [Respuesta] |
-| Escala y legibilidad | [Respuesta] | [Respuesta] |
-| Distribución de vistas | [Respuesta] | [Respuesta] |
-| PDF/DXF e impresión | [Respuesta] | [Respuesta] |
-
+| Formato y orientación | Se debía verificar que el tamaño y la orientación de la hoja fueran correctos. | Se revisó el formato de la hoja y se confirmó que la orientación correspondiera al plano. |
+| Cajetín | Se debía comprobar que el cajetín estuviera completo y legible. | Se verificaron los datos del cajetín y su correcta ubicación en la hoja. |
+| Escala y legibilidad | Algunas cotas y anotaciones podían resultar difíciles de leer. | Se revisó la escala de las vistas y se comprobó la legibilidad de las cotas y anotaciones. |
+| Distribución de vistas | Se debía verificar que las vistas estuvieran ordenadas y bien distribuidas. | Se revisó la ubicación de las vistas para mantener una distribución clara y evitar superposiciones. |
+| PDF/DXF e impresión | Se debía comprobar que la exportación conservara el formato y el contenido del Drawing. | Se exportó el plano a PDF y se revisó que la hoja, las vistas, las cotas y el cajetín aparecieran completos. |
 ### Evidencias P5
 
 **Qué debe contener cada imagen:**
@@ -354,11 +353,11 @@ Si no cambió la escala, la ficha debe explicar por qué la escala inicial conse
 - `S12_P5_PrevisualizacionImpresion_Apellido_Nombre.png`: previsualización con papel, orientación, escala y márgenes visibles.
 - `S12_P5_Entrega_Apellido_Nombre.png`: carpeta o plataforma oficial de entrega mostrando ficha, PDF, DXF cuando corresponda y archivos organizados.
 
-![P5: Plano final](S12_P5_PlanoFinal_Apellido_Nombre.png)
+![P5: Plano final](S12_P5_PlanoFinal_Picon_David.PNG)
 
-![P5: Verificación](S12_P5_VerificacionModelo_Apellido_Nombre.png)
+![P5: Verificación](S12_P5_VerificacionModelo_Picon_David.PNG)
 
-![P5: Impresión](S12_P5_PrevisualizacionImpresion_Apellido_Nombre.png)
+![P5: Impresión](S12_P5_PrevisualizacionImpresion_Picon_David.PNG)
 
 ![P5: Entrega](S12_P5_Entrega_Apellido_Nombre.png)
 
