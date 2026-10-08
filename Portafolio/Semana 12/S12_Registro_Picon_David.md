@@ -359,7 +359,7 @@ Si no cambió la escala, la ficha debe explicar por qué la escala inicial conse
 
 ![P5: Impresión](S12_P5_PrevisualizacionImpresion_Picon_David.png)
 
-![P5: Entrega](S12_P5_Entrega_Picon_David.png)
+![P5: Entrega](S12_P5_Entrega_Picon_David.PNG)
 
 ## Reflexión final
 
