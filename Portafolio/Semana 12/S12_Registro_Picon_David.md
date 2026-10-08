@@ -119,11 +119,11 @@ Si la plantilla o la versión de Fusion no permite mostrar un dato, escriba la l
 
 Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecuado para el plano.
 
-![P1: Plano inicial](S12_P1_PlanoInicial_Picon_David.png)
+![P1: Plano inicial](S12_P1_PlanoInicial_Picon_David.PNG)
 
-![P1: Diagnóstico](S12_P1_Diagnostico_Picon_David.png)
+![P1: Diagnóstico](S12_P1_Diagnostico_Picon_David.PNG)
 
-![P1: Decisión de formato](S12_P1_DecisionFormato_Picon_David.png)
+![P1: Decisión de formato](S12_P1_DecisionFormato_Picon_David.PNG)
 
 ## P2 — Aplicación de hoja, distribución y cajetín
 
