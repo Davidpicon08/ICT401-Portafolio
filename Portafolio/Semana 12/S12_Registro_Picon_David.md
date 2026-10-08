@@ -359,45 +359,45 @@ Si no cambió la escala, la ficha debe explicar por qué la escala inicial conse
 
 ![P5: Impresión](S12_P5_PrevisualizacionImpresion_Picon_David.png)
 
-![P5: Entrega](S12_P5_Entrega_Apellido_Nombre.png)
+![P5: Entrega](S12_P5_Entrega_Picon_David.png)
 
 ## Reflexión final
 
 ### 1. ¿Por qué el formato seleccionado es adecuado para este plano?
 
-[Respuesta]
+[Porque se adapta mejor el tamaño de las vsitas y aprovechando todo el espacio de la hoja]
 
 ### 2. ¿Qué información del cajetín identifica o contextualiza el plano?
 
-[Respuesta]
+[La escala, las uidades, y el tamaño de la hoja]
 
 ### 3. ¿Qué problema de escala o legibilidad detecté y cómo lo resolví?
 
-[Respuesta]
+[Que el tamaño de las vistas era muy inferior a la de la hoja y lo solucione aumentando el tamaño de la hoja]
 
 ### 4. ¿Qué diferencia encontré entre el Drawing y la salida exportada?
 
-[Respuesta]
+[Que en el dxt no aparecen las cotas]
 
 ### 5. ¿Cómo comprobé que la impresión no deformara ni recortara el plano?
 
-[Respuesta]
+[Porque al poner el tamaño de impresion el tamaño coincide con el que se va a imprimir]
 
 ### 6. ¿Qué corrección mejoró más la calidad del plano?
 
-[Respuesta]
+[Cambiar la orientacion]
 
 ## Cierre de la ficha
 
-- [ ] Completé las respuestas de P1 a P5.
-- [ ] Incorporé todas las evidencias con la nomenclatura solicitada.
-- [ ] Las imágenes se visualizan correctamente desde el medio oficial de entrega.
-- [ ] El PDF fue abierto y comparado con el Drawing.
-- [ ] El DXF fue revisado cuando correspondía.
-- [ ] El modelo y el Drawing están disponibles en Fusion Cloud con acceso docente.
-- [ ] Documenté las correcciones sin borrar decisiones iniciales.
-- [ ] La Fase 2 del Proyecto fue organizada según su rúbrica.
-- [ ] Entregué los últimos cambios mediante el medio oficial indicado.
+- [ ✓] Completé las respuestas de P1 a P5.
+- [ ✓] Incorporé todas las evidencias con la nomenclatura solicitada.
+- [✓ ] Las imágenes se visualizan correctamente desde el medio oficial de entrega.
+- [✓ ] El PDF fue abierto y comparado con el Drawing.
+- ✓[ ] El DXF fue revisado cuando correspondía.
+- [✓ ] El modelo y el Drawing están disponibles en Fusion Cloud con acceso docente.
+- [✓ ] Documenté las correcciones sin borrar decisiones iniciales.
+- [✓ ] La Fase 2 del Proyecto fue organizada según su rúbrica.
+- [✓ ] Entregué los últimos cambios mediante el medio oficial indicado.
 
 Nombre sugerido para la entrega: `S12_PlanoFinal_Apellido_Nombre`.
 
