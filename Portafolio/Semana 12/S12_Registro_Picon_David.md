@@ -205,22 +205,22 @@ Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecu
 
 ### P3.1 · Control de escala
 
-- Escala antes de la revisión: [Respuesta]
-- Escala después de la revisión: [Respuesta]
-- ¿Se cambió la escala?: [Sí/No]
-- Motivo de la decisión: [Respuesta]
-- ¿La escala del cajetín coincide?: [Sí/No]
-- ¿Las cotas necesarias aparecen una sola vez, salvo indicación auxiliar?: [Sí/No]
-- ¿Las cotas se ubican en la vista más clara y evitan líneas ocultas?: [Sí/No]
+- Escala antes de la revisión: [1:1]
+- Escala después de la revisión: [1:1]
+- ¿Se cambió la escala?: [No]
+- Motivo de la decisión: [Porque en la hoja las vsistas encajan con el tamaño de la hoja sin dejar mucho espacio sobrante]
+- ¿La escala del cajetín coincide?: [Sí]
+- ¿Las cotas necesarias aparecen una sola vez, salvo indicación auxiliar?: [Sí]
+- ¿Las cotas se ubican en la vista más clara y evitan líneas ocultas?: [Sí]
 
 ### P3.2 · Control de legibilidad
 
 | Elemento revisado | Problema encontrado | Corrección | Resultado verificado |
 |---|---|---|---|
-| Cotas | [Respuesta] | [Respuesta] | [Respuesta] |
-| Texto y notas | [Respuesta] | [Respuesta] | [Respuesta] |
-| Corte o sección | [Respuesta] | [Respuesta] | [Respuesta] |
-| Detalle | [Respuesta] | [Respuesta] | [Respuesta] |
+| Cotas | [Estaban muy pegadas] | [Se separaron] | [Si] |
+| Texto y notas | [No] | [No] | [Si] |
+| Corte o sección | [Estaban muy unidas] | [Se acomodaron para optimizar espacio] | [si] |
+| Detalle | [Letra muy pequeña] | [Se cambio el tamaño] | [Si] |
 | Tolerancia | [Respuesta] | [Respuesta] | [Respuesta] |
 
 ### Evidencias P3
@@ -233,11 +233,11 @@ Una captura aislada del cuadro de diálogo no demuestra que el formato sea adecu
 
 Si no cambió la escala, la ficha debe explicar por qué la escala inicial conservaba la legibilidad.
 
-![P3: Hoja completa](S12_P3_HojaCompleta_Apellido_Nombre.png)
+![P3: Hoja completa](S12_P3_HojaCompleta_Picon_David.PNG)
 
-![P3: Legibilidad](S12_P3_Legibilidad_Apellido_Nombre.png)
+![P3: Legibilidad](S12_P3_Legibilidad_Picon_David.PNG)
 
-![P3: Control de escala](S12_P3_ControlEscala_Apellido_Nombre.png)
+![P3: Control de escala](S12_P3_ControlEscala_Picon_David.PNG)
 
 ## P4 — Salidas PDF/DXF y previsualización técnica
 
