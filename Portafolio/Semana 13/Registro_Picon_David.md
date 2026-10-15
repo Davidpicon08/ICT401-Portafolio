@@ -118,23 +118,24 @@ Registre en cada lección qué componente seleccionó, qué comando utilizó y q
 
 ## L3 — Revisión de interferencias
 
-- Herramienta utilizada: [Respuesta]
-- Componentes comparados: [Respuesta]
-- ¿Se encontró una interferencia?: [Sí/No]
-- Ubicación de la condición: [Respuesta]
-- ¿Se trata de interferencia, contacto previsto o separación intencional?: [Respuesta]
-- Causa probable: [Respuesta]
-- ¿Qué efecto tendría sobre el funcionamiento del conjunto?: [Respuesta]
+- **Herramienta utilizada:** `Inspeccionar > Interferencia (Inspect > Interference)` y `Calcular (Compute)` en Autodesk Fusion.
+- **Componentes comparados:** Soporte vertical, eje o pasador y base.
+- **¿Se encontró una interferencia?:** No, se espera que los componentes estén correctamente posicionados y que no existan interferencias geométricas no deseadas.
+- **Ubicación de la condición:** Se revisó la zona de contacto entre el pasador y el alojamiento del soporte, así como las superficies de apoyo entre la base y el soporte.
+- **¿Se trata de interferencia, contacto previsto o separación intencional?:** El contacto entre la base y el soporte es previsto. El pasador debe estar alineado con el alojamiento para permitir el giro. No debe existir una penetración geométrica no deseada.
+- **Causa probable:** Si se detectara una interferencia, podría deberse a una posición incorrecta del pasador, una desalineación de los ejes o una orientación incorrecta de las relaciones.
+- **¿Qué efecto tendría sobre el funcionamiento del conjunto?:** Una interferencia no deseada podría impedir el giro correcto del pasador, provocar una colisión entre componentes o afectar el funcionamiento del ensamblaje.
 
 | Componente A | Componente B | Zona revisada | Resultado | Evidencia |
 |---|---|---|---|---|
-| [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
-
+| Base | Soporte vertical | Caras de apoyo entre ambas piezas | Contacto previsto; no debe existir penetración no deseada. | Captura de la herramienta de interferencias y de las superficies de contacto. |
+| Soporte vertical | Eje o pasador | Alojamiento pasante de Ø16 mm | El pasador debe quedar alineado con el alojamiento y permitir el giro. | Captura del análisis con los componentes seleccionados. |
+| Base | Eje o pasador | Zona inferior del conjunto | Se verifica que el pasador no interfiera con la base. | Captura del análisis del conjunto completo. |
 ### Evidencia L3
 
 `S13_Interferencia_Apellido_Nombre.png`: captura del análisis o de la zona problemática, con los componentes involucrados identificables.
 
-![L3: interferencia](S13_Interferencia_Apellido_Nombre.png)
+![L3: interferencia](S13_Interferencia_Picon_David.png)
 
 ## L4 — Corrección, verificación y cierre
 
