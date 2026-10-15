@@ -114,7 +114,7 @@ Registre en cada lección qué componente seleccionó, qué comando utilizó y q
 
 `S13_Relaciones_Apellido_Nombre.png`: captura del navegador de componentes y de la relación aplicada, con el conjunto orientado para leer la posición del soporte y del eje.
 
-![L2: relaciones](S13_PiezaBase_Picon_David.png)
+![L2: relaciones](S13_PiezasBase_Picon_David.png)
 
 ## L3 — Revisión de interferencias
 
