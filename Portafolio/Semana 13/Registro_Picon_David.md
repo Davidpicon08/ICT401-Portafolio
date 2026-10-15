@@ -4,8 +4,8 @@
 
 - Estudiante: [David Picon Mendez]
 - Grupo: [60]
-- Proyecto de Fusion Cloud con acceso docente: [Respuesta]
-- Nombre del diseño de ensamblaje: [Respuesta]
+- Proyecto de Fusion Cloud con acceso docente: [ICT_ENSAMBLAJE]
+- Nombre del diseño de ensamblaje: [ICT_ENSAMBLAJE]
 - Piezas base utilizadas: [Respuesta]
 - Fecha de trabajo de laboratorio: [15/10/26]
 
