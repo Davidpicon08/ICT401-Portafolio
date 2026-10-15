@@ -89,7 +89,7 @@ Registre en cada lección qué componente seleccionó, qué comando utilizó y q
 
 `S13_PiezasBase_Apellido_Nombre.png`: captura del ensamblaje con la base y el soporte visibles, el navegador de componentes abierto y los nombres identificables.
 
-![L1: piezas base](S13_PiezasBase_Picon_David.png)
+![L1: piezas base](S13_Relaciones_Picon_David.png)
 
 ## L2 — Relaciones entre componentes
 
@@ -97,20 +97,24 @@ Registre en cada lección qué componente seleccionó, qué comando utilizó y q
 
 | Relación | Componentes o geometrías vinculadas | Movimiento que elimina | Movimiento que conserva | Resultado |
 |---|---|---|---|---|
-| 1 | [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
-| 2 | [Respuesta] | [Respuesta] | [Respuesta] | [Respuesta] |
+| 1 | Base y soporte vertical, mediante las caras de apoyo. | Elimina las tres traslaciones y las tres rotaciones relativas entre la base y el soporte. | Ninguno; ambos componentes permanecen fijos entre sí. | El soporte queda unido rígidamente y centrado sobre la base. |
+| 2 | Soporte vertical y eje o pasador, mediante el eje central del pasador y el alojamiento de Ø16 mm. | Elimina las tres traslaciones y dos rotaciones relativas. | Una rotación alrededor del eje del pasador. | El pasador queda alineado con el alojamiento y puede girar sin trasladarse. |
 
-- Comando o herramienta utilizada: [Respuesta]
-- ¿Por qué esa relación representa la intención del conjunto?: [Respuesta]
-- ¿La orientación del soporte quedó correcta?: [Sí/No + explicación]
-- ¿Qué movimiento debe conservar el eje?: [Respuesta]
-- ¿Qué movimiento inesperado observó y cómo lo corrigió?: [Respuesta]
+- **Comando o herramienta utilizada:** Se utilizó `Ensamblar > Unión (Assemble > Joint)`. Para unir la base con el soporte se seleccionó `Rígida (Rigid)` y para relacionar el soporte con el pasador se seleccionó `Revoluta (Revolute)`. También se puede utilizar `Unión según posición (As-Built Joint)` cuando las piezas ya están correctamente posicionadas.
+
+- **¿Por qué esa relación representa la intención del conjunto?:** La unión rígida mantiene el soporte fijo sobre la base, mientras que la unión revoluta permite que el pasador gire sobre su propio eje sin desplazarse. De esta manera, cada relación cumple la función prevista dentro del ensamblaje.
+
+- **¿La orientación del soporte quedó correcta?:** Sí, el soporte se coloca verticalmente, con su ala inferior apoyada sobre la cara superior de la base y centrado, dejando márgenes de 20 mm a cada lado lateral y 15 mm al frente y atrás.
+
+- **¿Qué movimiento debe conservar el eje?:** Debe conservar únicamente la rotación alrededor de su eje longitudinal, sin traslaciones ni otros giros.
+
+- **¿Qué movimiento inesperado observó y cómo lo corrigió?:** Si el soporte se desplazaba o quedaba invertido, se corrigió la posición y la orientación de la unión rígida mediante `Editar (Edit)` o `Invertir (Flip)`. Si el pasador no quedaba alineado con el alojamiento, se editó la unión revoluta para ajustar su origen y orientación hasta hacer coincidir los ejes.
 
 ### Evidencia L2
 
 `S13_Relaciones_Apellido_Nombre.png`: captura del navegador de componentes y de la relación aplicada, con el conjunto orientado para leer la posición del soporte y del eje.
 
-![L2: relaciones](S13_Relaciones_Apellido_Nombre.png)
+![L2: relaciones](S13_PiezaBase_Picon_David.png)
 
 ## L3 — Revisión de interferencias
 
