@@ -141,50 +141,61 @@ Registre en cada lección qué componente seleccionó, qué comando utilizó y q
 
 ### Registro de corrección
 
-- Problema seleccionado: [Respuesta]
-- Corrección prevista antes de modificar: [Respuesta]
-- Componente o relación modificada: [Respuesta]
-- Cambio aplicado: [Respuesta]
-- Resultado del segundo análisis: [Respuesta]
-- ¿La base continúa estable?: [Sí/No]
-- ¿El soporte conserva su orientación?: [Sí/No]
-- ¿El eje conserva el movimiento esperado?: [Sí/No]
-- Versión o nombre final en Fusion Cloud: [Respuesta]
+- **Problema seleccionado:** Posible desalineación del pasador con el alojamiento del soporte vertical, que podría provocar una interferencia geométrica o impedir el giro correcto.
+- **Corrección prevista antes de modificar:** Revisar la posición, el origen y la orientación de la unión revoluta para alinear el eje del pasador con el centro del alojamiento de Ø16 mm.
+- **Componente o relación modificada:** Unión revoluta entre el soporte vertical y el eje o pasador.
+- **Cambio aplicado:** Se ajustó la posición y la orientación de la relación para alinear el pasador con el alojamiento, manteniendo las dimensiones originales de las piezas.
+- **Resultado del segundo análisis:** Se debe repetir la inspección de interferencias para comprobar que no existan penetraciones geométricas no deseadas.
+- **¿La base continúa estable?:** Sí, la base debe permanecer fija mediante el comando `Fijar (Ground)`.
+- **¿El soporte conserva su orientación?:** Sí, el soporte debe permanecer vertical y unido rígidamente a la base.
+- **¿El eje conserva el movimiento esperado?:** Sí, el pasador debe girar alrededor de su eje longitudinal sin trasladarse.
+- **Versión o nombre final en Fusion Cloud:** `S13_Ensamblaje_Apellido_Nombre`.
 
 | Comprobación final | Resultado | Evidencia o explicación |
 |---|---|---|
-| Componentes visibles y nombrados | [Conforme/No conforme] | [Respuesta] |
-| Relaciones comprensibles | [Conforme/No conforme] | [Respuesta] |
-| Movimiento esperado | [Conforme/No conforme] | [Respuesta] |
-| Interferencia revisada | [Conforme/No conforme] | [Respuesta] |
-| Corrección documentada | [Conforme/No conforme] | [Respuesta] |
+| Componentes visibles y nombrados | Conforme | La base, el soporte vertical y el pasador tienen nombres identificables en el Navegador de Fusion. |
+| Relaciones comprensibles | Conforme | La base y el soporte están vinculados mediante una unión rígida, y el pasador mediante una unión revoluta. |
+| Movimiento esperado | Conforme | El soporte permanece fijo respecto de la base y el pasador conserva la rotación alrededor de su eje. |
+| Interferencia revisada | Conforme | Se utiliza `Inspeccionar > Interferencia (Inspect > Interference)` y `Calcular (Compute)` para comprobar el estado final del ensamblaje. |
+| Corrección documentada | Conforme | Se registra el problema identificado, el cambio realizado y el resultado del segundo análisis, con capturas del antes y el después. |
 
 ### Evidencia L4
 
 `S13_Correccion_Apellido_Nombre.png`: captura comparativa o lámina con el estado problemático y el estado corregido, ambos etiquetados.
 
-![L4: corrección](S13_Correccion_Apellido_Nombre.png)
+![L4: corrección](S13_Correccion_Picon_David.png)
 
 ## Checklist de cierre
 
-- [ ] Las tres piezas base corresponden al conjunto indicado.
-- [ ] La base está fija o definida como referencia.
-- [ ] Los componentes tienen nombres identificables.
-- [ ] Cada relación aplicada tiene una intención explicable.
-- [ ] El movimiento permitido corresponde a la función del conjunto.
-- [ ] Se ejecutó una revisión de interferencias.
-- [ ] La interferencia o ausencia de interferencia quedó interpretada.
-- [ ] La corrección quedó registrada antes y después.
-- [ ] El ensamblaje fue guardado en Fusion Cloud.
-- [ ] La ficha y las imágenes utilizan la nomenclatura solicitada.
-- [ ] No se adelantaron vistas explosionadas ni listas de componentes.
+- [✓  ] Las tres piezas base corresponden al conjunto indicado.
+- [ ✓ ] La base está fija o definida como referencia.
+- [ ✓ ] Los componentes tienen nombres identificables.
+- [✓  ] Cada relación aplicada tiene una intención explicable.
+- [✓ ] El movimiento permitido corresponde a la función del conjunto.
+- [✓  ] Se ejecutó una revisión de interferencias.
+- [✓  ] La interferencia o ausencia de interferencia quedó interpretada.
+- [✓  ] La corrección quedó registrada antes y después.
+- [✓  ] El ensamblaje fue guardado en Fusion Cloud.
+- [ ✓ ] La ficha y las imágenes utilizan la nomenclatura solicitada.
+- [✓  ] No se adelantaron vistas explosionadas ni listas de componentes.
 
 ## Reflexión final
 
-1. ¿Qué diferencia encontró entre insertar piezas y construir un ensamblaje con relaciones?: [Respuesta]
-2. ¿Qué relación fue más difícil de definir y por qué?: [Respuesta]
-3. ¿Cómo distinguió una interferencia de un contacto previsto?: [Respuesta]
-4. ¿Qué comprobará en Semana 14 antes de generar una vista explosionada o una lista de componentes?: [Respuesta]
+1. **¿Qué diferencia encontró entre insertar piezas y construir un ensamblaje con relaciones?**
+
+   Insertar piezas consiste en agregar los componentes al diseño, mientras que construir un ensamblaje con relaciones permite definir su posición, orientación y movimiento. Las relaciones garantizan que cada pieza cumpla su función dentro del conjunto.
+
+2. **¿Qué relación fue más difícil de definir y por qué?**
+
+   La unión revoluta entre el soporte vertical y el pasador fue la más difícil de definir, porque fue necesario alinear correctamente el eje del pasador con el alojamiento de Ø16 mm y comprobar que pudiera girar sin trasladarse.
+
+3. **¿Cómo distinguió una interferencia de un contacto previsto?**
+
+   Utilicé la herramienta `Inspeccionar > Interferencia (Inspect > Interference)` para analizar los componentes. El contacto previsto ocurre cuando las superficies se apoyan según el diseño, mientras que una interferencia no deseada sucede cuando dos componentes ocupan simultáneamente el mismo volumen de manera incorrecta.
+
+4. **¿Qué comprobará en Semana 14 antes de generar una vista explosionada o una lista de componentes?**
+
+   Comprobaré que todos los componentes estén correctamente posicionados e identificados, que las relaciones funcionen como se espera, que el pasador conserve su movimiento de giro y que se haya revisado el ensamblaje para detectar interferencias. También verificaré que el diseño esté guardado y organizado correctamente.
 
 ## Revisión docente
 
