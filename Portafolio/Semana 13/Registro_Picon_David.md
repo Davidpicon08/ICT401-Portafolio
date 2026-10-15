@@ -89,7 +89,7 @@ Registre en cada lección qué componente seleccionó, qué comando utilizó y q
 
 `S13_PiezasBase_Apellido_Nombre.png`: captura del ensamblaje con la base y el soporte visibles, el navegador de componentes abierto y los nombres identificables.
 
-![L1: piezas base](S13_PiezasBase_Apellido_Nombre.png)
+![L1: piezas base](S13_PiezasBase_Picon_David.png)
 
 ## L2 — Relaciones entre componentes
 
