@@ -2,12 +2,12 @@
 
 12 al 17 de octubre de 2026.
 
-- Estudiante: [Respuesta]
-- Grupo: [Respuesta]
+- Estudiante: [David Picon Mendez]
+- Grupo: [60]
 - Proyecto de Fusion Cloud con acceso docente: [Respuesta]
 - Nombre del diseño de ensamblaje: [Respuesta]
 - Piezas base utilizadas: [Respuesta]
-- Fecha de trabajo de laboratorio: [Respuesta]
+- Fecha de trabajo de laboratorio: [15/10/26]
 
 ## Instrucciones
 
@@ -38,16 +38,17 @@ El soporte se centra sobre la base, no se coloca en una esquina:
 - Si la pared mide `10 mm`, el pasador de `80 mm` sobresale aproximadamente `35 mm` a cada lado.
 
 No registre una distancia desde una esquina para ubicar el pasador. Su posición queda definida por el centro del alojamiento.
+# Componente y función dentro del conjunto
 
 | Componente | Nombre en Fusion | Función dentro del conjunto | Observación inicial |
 |---|---|---|---|
-| Base | [Respuesta] | [Respuesta] | [Respuesta] |
-| Soporte vertical | [Respuesta] | [Respuesta] | [Respuesta] |
-| Eje o pasador | [Respuesta] | [Respuesta] | [Respuesta] |
+| Base | Base | Referencia fija del conjunto y soporte de las demás piezas. | Placa maciza de 100 × 70 × 10 mm. Identificar las caras, los ejes y las superficies de apoyo. |
+| Soporte vertical | Soporte vertical | Se relaciona con la base y sostiene el pasador. | Mide 60 × 70 × 40 mm y tiene un alojamiento pasante de Ø16 mm. Identificar las superficies de contacto y la orientación correcta. |
+| Eje o pasador | Pasador | Atraviesa el alojamiento del soporte y permite el movimiento de giro. | Mide Ø16 × 80 mm. Identificar el eje de giro y los posibles contactos con el soporte. |
 
-## Comandos bilingues de Fusion
+## Comandos bilingües de Fusion
 
-| Accion | Ruta o comando | Resultado esperado |
+| Acción | Ruta o comando | Resultado esperado |
 |---|---|---|
 | Crear diseño | `Archivo > Nuevo diseño (File > New Design)` | Diseño vacío y proyecto confirmado en el Panel de datos. |
 | Insertar pieza | `Insertar en el diseño actual (Insert into Current Design)` | Componente visible en el Navegador. |
@@ -64,21 +65,25 @@ Registre en cada lección qué componente seleccionó, qué comando utilizó y q
 
 ### Diagnóstico
 
-- ¿Qué pieza funcionará como base y por qué?: [Respuesta]
-- ¿Qué superficies de la base y del soporte podrían entrar en contacto?: [Respuesta]
-- ¿Qué eje o alojamiento utilizará el pasador?: [Respuesta]
-- ¿Qué movimiento estaba libre antes de aplicar relaciones?: [Respuesta]
-- ¿Qué orientación inicial seleccionó y por qué?: [Respuesta]
+- **¿Qué pieza funcionará como base y por qué?** La base funcionará como referencia fija del conjunto porque sirve de soporte para las demás piezas y permite mantener una posición estable durante el ensamblaje.
+
+- **¿Qué superficies de la base y del soporte podrían entrar en contacto?** La cara superior de la base y la cara inferior del ala del soporte, ya que ambas superficies permiten apoyar y unir las piezas.
+
+- **¿Qué eje o alojamiento utilizará el pasador?** Se utilizará el alojamiento pasante de Ø16 mm del soporte vertical, alineando el eje central del pasador con el centro del agujero.
+
+- **¿Qué movimiento estaba libre antes de aplicar relaciones?** El soporte podía realizar tres traslaciones (X, Y y Z) y tres rotaciones alrededor de esos ejes, antes de establecer las relaciones del ensamblaje.
+
+- **¿Qué orientación inicial seleccionó y por qué?** Se colocó el soporte en posición vertical, con el ala inferior apoyada sobre la cara superior de la base y el alojamiento orientado para que el pasador pudiera atravesarlo correctamente.
 
 ### Estado inicial
 
 | Comprobación | Resultado |
 |---|---|
-| Base insertada como componente | [Sí/No + explicación] |
-| Base fija o establecida como referencia | [Sí/No + comando] |
-| Soporte insertado | [Sí/No] |
-| Eje o pasador disponible | [Sí/No] |
-| Nombres identificables en el navegador | [Sí/No] |
+| Base insertada como componente | Sí, se inserta mediante `Insertar en el diseño actual (Insert into Current Design)` para utilizarla como referencia del ensamblaje. |
+| Base fija o establecida como referencia | Sí, se utiliza `Fijar (Ground)` para impedir que la base se desplace o gire. |
+| Soporte insertado | Sí, se incorpora mediante `Insertar en el diseño actual (Insert into Current Design)` y se orienta cerca de la base. |
+| Eje o pasador disponible | Sí, se utiliza la pieza proporcionada para la práctica, de dimensiones Ø16 × 80 mm. |
+| Nombres identificables en el navegador | Sí, se identifican los componentes como `Base`, `Soporte vertical` y `Pasador` para facilitar su reconocimiento en el Navegador. |
 
 ### Evidencia L1
 
