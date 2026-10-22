@@ -71,7 +71,7 @@ Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del
 | Estado inicial del ensamblaje | El conjunto se encuentra ensamblado y está formado por una base, un soporte y un pasador. Las piezas mantienen sus posiciones originales, sin aplicar separaciones. |
 
 **Captura del conjunto antes de crear la vista explosionada:**
-![Conjunto inicial de la Semana 13](evidencias/S14_E1_Conjunto_Inicial.png)
+![Conjunto inicial de la Semana 13](evidencias/S14_E1_Conjunto_Inicial.PNG)
 
 | Análisis de referencia | Registro |
 |---|---|
