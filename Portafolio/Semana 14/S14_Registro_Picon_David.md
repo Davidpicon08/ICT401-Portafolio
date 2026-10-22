@@ -158,7 +158,7 @@ Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del
 | 2 | 2 | Pasador | 1 | Pasador cilíndrico que atraviesa el soporte | [x] |
 | 3 | 3 | Soporte | 1 | Soporte en forma de L ubicado sobre la base | [x] |
 
-![Lista básica de componentes e identificadores](evidencias/S14_E3_Lista_Componentes.png)
+![Lista básica de componentes e identificadores](evidencias/S14_E3_Lista_Componentes.PNG)
 
 | Comparación | Resultado |
 |---|---|
