@@ -3,7 +3,7 @@
 **Curso:** ICT401 – Dibujo Técnico Asistido por Computadora
 **Semana:** 14
 **Tema:** Vista explosionada, lista de componentes y documentación de conjuntos
-**Estudiante:** Apellido, Nombre
+**Estudiante:** Picon, David
 **Fecha:** 22 de octubre de 2026
 **Archivo o enlace del conjunto:** `ruta/al/archivo-o-enlace`
 
@@ -63,12 +63,12 @@ Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del
 
 | Elemento | Registro |
 |---|---|
-| Nombre del archivo original |  |
-| Nombre de la copia de trabajo |  |
-| Versión o fecha de respaldo |  |
-| Número de componentes |  |
-| Componente de referencia |  |
-| Estado inicial del ensamblaje |  |
+| Nombre del archivo original |ICT_ENSAMBLAJE  |
+| Nombre de la copia de trabajo | Conjunto_Semana14_Picon_David |
+| Versión o fecha de respaldo |22/10/26  |
+| Número de componentes |3  |
+| Componente de referencia | Base |
+| Estado inicial del ensamblaje | El conjunto se encuentra ensamblado y está formado por una base, un soporte y un pasador. Las piezas mantienen sus posiciones originales, sin aplicar separaciones. |
 
 **Captura del conjunto antes de crear la vista explosionada:**
 ![Conjunto inicial de la Semana 13](evidencias/S14_E1_Conjunto_Inicial.png)
