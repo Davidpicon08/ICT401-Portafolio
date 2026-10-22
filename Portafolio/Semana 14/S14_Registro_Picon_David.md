@@ -75,19 +75,15 @@ Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del
 
 | Análisis de referencia | Registro |
 |---|---|
-| ¿Por qué se mantiene ese componente como referencia? |  |
+| ¿Por qué se mantiene ese componente como referencia? | Se mantiene la base como referencia porque sostiene el conjunto y permite identificar la posición de las demás piezas. Si todos los componentes se desplazaran, sería más difícil comprender cómo están relacionados y cuál es su posición original. |
 
 ### 2. Componentes del conjunto
 
 | ID | Nombre del componente | Función | Cantidad | Referencia o archivo | Observaciones |
 |---|---|---|---:|---|---|
-| 1 |  |  |  |  |  |
-| 2 |  |  |  |  |  |
-| 3 |  |  |  |  |  |
-| 4 |  |  |  |  |  |
-| 5 |  |  |  |  |  |
-
-Agregue filas si el conjunto contiene más componentes.
+| 1 | Base | Sostener el conjunto y proporcionar estabilidad. | 1 | Archivo de base de Semana 13 | Se encuentra en la parte inferior y permanece fija durante la separación. |
+| 2 | Soporte | Mantener la estructura y proporcionar el alojamiento para el pasador. | 1 | Archivo de soporte de Semana 13 | Es una pieza en forma de L ubicada sobre la base. |
+| 3 | Pasador | Atravesar el alojamiento del soporte y establecer su relación de unión. | 1 | Archivo de pasador de Semana 13 | Es una pieza cilíndrica colocada horizontalmente en el soporte. |
 
 ### 3. Plan de montaje y separación
 
@@ -95,57 +91,61 @@ Agregue filas si el conjunto contiene más componentes.
 
 | Orden | Acción | Componente | Referencia o contacto | Dirección | Función comunicada | Comprobado |
 |---:|---|---|---|---|---|:---:|
-| 1 | Montar / retirar |  |  |  |  | [ ] |
-| 2 | Montar / retirar |  |  |  |  | [ ] |
-| 3 | Montar / retirar |  |  |  |  | [ ] |
-| 4 | Montar / retirar |  |  |  |  | [ ] |
+| 1 | Montar primero / retirar al final | Base | Superficie de apoyo del conjunto | Permanece fija | Proporcionar estabilidad y servir como referencia. | [si ] |
+| 2 | Montar segundo / retirar segundo | Soporte | Superficie de contacto con la base | Descenso para montar y ascenso para retirar | Mostrar cómo se coloca y apoya el soporte sobre la base. | [si ] |
+| 3 | Montar al final / retirar primero | Pasador | Orificio del soporte | Movimiento siguiendo su eje longitudinal | Mostrar cómo se introduce o retira el pasador del soporte. | [si ] |
 
 | Decisión | Respuesta |
 |---|---|
-| Componente que se colocaría primero |  |
-| Componente que se retiraría al final |  |
-| Criterio utilizado para definir el orden |  |
+| Componente que se colocaría primero | La base, porque permite apoyar y posicionar las demás piezas del conjunto. |
+| Componente que se retiraría al final | La base, ya que permanece como referencia durante el desmontaje. |
+| Criterio utilizado para definir el orden | Se consideró la función de cada componente, sus superficies de contacto y la secuencia lógica para montar o desmontar el conjunto. |
 
 | Orden | Componente | Dirección o referencia de separación | Razón funcional | Distancia aproximada | Comprobado |
-|---:|---|---|---|---:|---|
-| 1 |  |  |  |  | [ ] |
-| 2 |  |  |  |  | [ ] |
-| 3 |  |  |  |  | [ ] |
-| 4 |  |  |  |  | [ ] |
+|---:|---|---|---|---|:---:|
+| 1 | Pasador | Siguiendo su eje longitudinal, hacia afuera del soporte. | Permite observar su posición y la relación con el orificio del soporte. |40mm | [ si] |
+| 2 | Soporte | Verticalmente hacia arriba, alejándose de la base. | Permite visualizar las superficies de contacto entre ambas piezas. | 40mm | [si ] |
+| 3 | Base | Permanece en su posición original. | Sirve como referencia para interpretar el conjunto. | 0 mm | [ si] |
 
 | Pregunta de análisis | Respuesta |
 |---|---|
-| ¿Qué relación de montaje comunica la secuencia? |  |
-| ¿Qué dificultad o duda debe comprobarse durante la Lección 2? |  |
+| ¿Qué relación de montaje comunica la secuencia? | La secuencia permite comprender que la base sostiene el conjunto, que el soporte se coloca sobre ella y que el pasador se introduce en el alojamiento correspondiente. Al separar las piezas en el orden inverso, se puede interpretar cómo desmontar el conjunto. |
+| ¿Qué dificultad o duda debe comprobarse durante la Lección 2? | Se debe comprobar que las distancias de separación permitan observar todas las piezas sin que se oculten entre sí. También será necesario verificar que el pasador se desplace siguiendo su eje y que la vista conserve una relación clara entre los componentes. |
 
 ## Lección 2. Construcción de la vista explosionada
 
 ### 4. Construcción en Fusion
 
-**Herramienta utilizada:** `Animation > Transform > Move` o `Auto Explode` <br>
-**Storyboard:**
-**Vista u orientación principal:**
-**Criterio para separar los componentes:**
+**Herramienta utilizada:** `Animation > Transform > Transform Components`
+
+**Storyboard:** S14_Vista_Explosionada
+
+**Vista u orientación principal:** Vista isométrica que permite observar la base, el soporte y el pasador.
+
+**Criterio para separar los componentes:** Se utilizó una separación manual basada en el orden de desmontaje. Primero se desplazó el pasador siguiendo su eje longitudinal y después se elevó el soporte, manteniendo fija la base. Las distancias se ajustaron para conservar la relación visual entre las piezas.
 
 **Captura de la vista explosionada:**
+
 ![Vista explosionada inicial](evidencias/S14_E2_Vista_Explosionada.png)
 
 **Captura de la posición o versión intermedia, si corresponde:**
+
 ![Posición o storyboard intermedio](evidencias/S14_E2_Posicion_Intermedia.png)
 
 **Decisiones realizadas en Fusion:**
 
 | Decisión | Acción realizada | Resultado observado | Evidencia |
 |---|---|---|---|
-| Orientación principal |  |  |  |
-| Dirección de separación |  |  |  |
-| Distancia o posición |  |  |  |
-| Captura de posición / storyboard |  |  |  |
+| Orientación principal | Se seleccionó una vista isométrica para observar los tres componentes. | La orientación permite identificar la base, el soporte y el pasador. | S14_E2_Vista_Explosionada.png |
+| Dirección de separación | El pasador se desplazó siguiendo su eje y el soporte se elevó verticalmente. | Los movimientos permiten comprender el orden de desmontaje. | S14_E2_Vista_Explosionada.png |
+| Distancia o posición | Se ajustaron las distancias de manera visual, manteniendo la base fija. | Las piezas quedan separadas sin perder su relación con el conjunto. | S14_E2_Vista_Explosionada.png |
+| Captura de posición / storyboard | Se registró una posición intermedia y la vista explosionada final. | Las capturas permiten observar el proceso de separación. | S14_E2_Posicion_Intermedia.png y S14_E2_Vista_Explosionada.png |
 
-**¿Se modificó alguna geometría?** Sí [ ] No [ ] <br>
-**¿Se capturó la posición o el storyboard?** Sí [ ] No [ ]
+**¿Se modificó alguna geometría?** Sí [ ] No [✓ ]
 
-**¿Las líneas de trayectoria se distinguen de contornos, ejes y líneas ocultas?** Sí [ ] No [ ]
+**¿Se capturó la posición o el storyboard?** Sí [✓ ] No [ ]
+
+**¿Las líneas de trayectoria se distinguen de contornos, ejes y líneas ocultas?** Sí [✓ ] No [ ]
 
 ## Lección 3. Lista de componentes y rotulación
 
