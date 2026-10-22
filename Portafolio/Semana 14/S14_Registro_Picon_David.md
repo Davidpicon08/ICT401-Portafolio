@@ -197,7 +197,7 @@ Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del
 
 **Archivo o captura de la documentación final:**
 
-![Documentación final del conjunto](evidencias/S14_E4_Documentacion_Final.png)
+![Documentación final del conjunto](evidencias/S14_E4_Documentacion_Final.PNG)
 
 | Resultado de la revisión con la rúbrica | Registro |
 |---|---|
