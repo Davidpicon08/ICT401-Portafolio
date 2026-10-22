@@ -147,25 +147,24 @@ Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del
 
 **¿Las líneas de trayectoria se distinguen de contornos, ejes y líneas ocultas?** Sí [✓ ] No [ ]
 
+
 ## Lección 3. Lista de componentes y rotulación
 
 ### 5. Lista básica de componentes
 
 | Ítem | Identificador visible | Nombre en la lista | Cantidad | Componente correspondiente | Verificado |
 |---:|---|---|---:|---|---|
-| 1 |  |  |  |  | [ ] |
-| 2 |  |  |  |  | [ ] |
-| 3 |  |  |  |  | [ ] |
-| 4 |  |  |  |  | [ ] |
-| 5 |  |  |  |  | [ ] |
+| 1 | 1 | Base | 1 | Base rectangular inferior del conjunto | [x] |
+| 2 | 2 | Pasador | 1 | Pasador cilíndrico que atraviesa el soporte | [x] |
+| 3 | 3 | Soporte | 1 | Soporte en forma de L ubicado sobre la base | [x] |
 
 ![Lista básica de componentes e identificadores](evidencias/S14_E3_Lista_Componentes.png)
 
 | Comparación | Resultado |
 |---|---|
-| Diferencia encontrada entre el Browser, la vista y la lista |  |
-| Corrección aplicada |  |
-| ¿Cada globo o número de referencia corresponde una sola vez a un componente? |  |
+| Diferencia encontrada entre el Browser, la vista y la lista | Inicialmente, la lista mostraba códigos automáticos en la columna de número de pieza, lo que dificultaba identificar los componentes por su nombre. Las cantidades y los números de referencia coincidían con las tres piezas del ensamblaje. |
+| Corrección aplicada | Se ajustó la lista para mostrar los nombres de los componentes de forma más clara, manteniendo sus cantidades e identificadores correspondientes. |
+| ¿Cada globo o número de referencia corresponde una sola vez a un componente? | Sí. Se identificaron tres globos: el número 1 corresponde a la base, el 2 al pasador y el 3 al soporte. Cada uno señala una pieza diferente y coincide con su elemento en la lista. |
 
 ## Lección 4. Documentación y evaluación
 
