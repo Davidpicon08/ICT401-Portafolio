@@ -15,47 +15,53 @@ Esta ficha registra las decisiones, comprobaciones, dificultades y evidencias de
 
 La aplicación de estas normas es didáctica y selectiva; no constituye una certificación integral de conformidad normativa. Registre la evidencia o la limitación encontrada.
 
+
+## Criterios normativos de revisión
+
+La aplicación de estas normas es didáctica y selectiva; no constituye una certificación integral de conformidad normativa.
+
 | Referencia | Criterio que se aplica | Evidencia o limitación registrada |
 |---|---|---|
-| INTE/ISO 128-1:2024 | La vista comunica el conjunto sin ambigüedad y conserva la identidad de sus componentes. |  |
-| INTE/ISO 128-2:2023 | Contornos, ejes, líneas ocultas y líneas de trayectoria se distinguen; las trayectorias no sustituyen los contornos. |  |
-| INTE/ISO 128-3:2025 / ISO 5456-2 | La orientación, las vistas y el método de proyección son coherentes. |  |
-| ISO 5457 | La hoja, orientación, escala y distribución permiten leer la documentación. |  |
-| INTE/ISO 7200:2008 | El cajetín o encabezado identifica conjunto, estudiante, fecha, unidades, escala y versión cuando estén disponibles. |  |
-| ISO 7573 / ISO 6433 | La lista, las cantidades y los números de referencia corresponden a componentes reales. |  |
-| ISO 16792:2021 | Modelo, Storyboard, Drawing, lista y evidencias corresponden a la misma versión. |  |
+| INTE/ISO 128-1:2024 | La vista comunica el conjunto sin ambigüedad y conserva la identidad de sus componentes. | La vista explosionada permite distinguir la base, el soporte y el pasador. Los tres componentes están identificados mediante globos numerados. |
+| INTE/ISO 128-2:2023 | Contornos, ejes, líneas ocultas y líneas de trayectoria se distinguen; las trayectorias no sustituyen los contornos. | Los contornos de las piezas se distinguen en el Drawing. Queda pendiente comprobar la visibilidad de las líneas de trayectoria en la documentación final. |
+| INTE/ISO 128-3:2025 / ISO 5456-2 | La orientación, las vistas y el método de proyección son coherentes. | Se generaron las vistas Front, Top y Right. Está pendiente confirmar la corrección de la posición de Top y la configuración de primer diedro europeo. |
+| ISO 5457 | La hoja, orientación, escala y distribución permiten leer la documentación. | Se utilizó una hoja A3 horizontal con marco y cajetín. Las vistas se distribuyeron en diferentes hojas del mismo Drawing. Falta comprobar la legibilidad del PDF exportado. |
+| INTE/ISO 7200:2008 | El cajetín o encabezado identifica conjunto, estudiante, fecha, unidades, escala y versión cuando estén disponibles. | El cajetín muestra información del conjunto y la fecha de elaboración. Se debe confirmar que el autor, las unidades, la escala y la versión estén correctamente registrados. |
+| ISO 7573 / ISO 6433 | La lista, las cantidades y los números de referencia corresponden a componentes reales. | La lista contiene tres componentes con cantidad 1 cada uno. El globo 1 identifica la base, el 2 el pasador y el 3 el soporte. |
+| ISO 16792:2021 | Modelo, Storyboard, Drawing, lista y evidencias corresponden a la misma versión. | La documentación se realizó a partir del conjunto Conjunto_Semana14_Picon_David. Se debe confirmar que el Storyboard, el Drawing y las capturas correspondan a la última versión guardada. |
 
 **Alcance:** no se aplican ISO 129-1, ISO 8015 ni ISO 2768 como requisitos de esta semana porque no se solicitan cotas funcionales ni tolerancias de fabricación.
 
 ## Producto documental integrado
 
-La entrega debe corresponder a **un único Drawing de Fusion**. Registre aquí cómo integró las representaciones:
+La entrega corresponde a un único Drawing de Fusion que contiene las representaciones normales y la vista explosionada del conjunto.
 
 | Elemento obligatorio | Hoja o ubicación dentro del Drawing | Comprobado |
 |---|---|:---:|
-| Vistas normales `Front`, `Top` y `Right` |  | [ ] |
-| Proyección de primer diedro (sistema europeo) |  | [ ] |
-| Símbolo o configuración del método de proyección |  | [ ] |
-| Vista explosionada del `Storyboard` |  | [ ] |
-| Lista de componentes |  | [ ] |
-| Globos o números de referencia |  | [ ] |
-| Cajetín e identificación del conjunto |  | [ ] |
-| Nombre y versión del modelo de origen |  | [ ] |
+| Vistas normales `Front`, `Top` y `Right` | Hoja 1, con las tres vistas ortogonales del ensamblaje. | [x] |
+| Proyección de primer diedro (sistema europeo) | Hoja 1. Pendiente de confirmar la distribución corregida. | [ ] |
+| Símbolo o configuración del método de proyección | Configuración de documento de Fusion. Pendiente de verificar First Angle (ISO). | [ ] |
+| Vista explosionada del `Storyboard` | Hoja 3, representada en orientación isométrica. | [x] |
+| Lista de componentes | Hoja 3, ubicada junto a la vista explosionada. | [x] |
+| Globos o números de referencia | Hoja 3, alrededor de los componentes de la vista explosionada. | [x] |
+| Cajetín e identificación del conjunto | Esquina inferior derecha de las hojas. Pendiente de comprobar todos los datos. | [ ] |
+| Nombre y versión del modelo de origen | Conjunto_Semana14_Picon_David. Versión exacta pendiente de confirmar. | [ ] |
 
-Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del mismo Drawing. No entregue la vista explosionada y las vistas ortogonales como documentos independientes.
+Las vistas normales y la explosionada se encuentran dentro del mismo Drawing, aunque estén distribuidas en hojas diferentes.
 
 ### Distribución de la hoja
 
 | Control de distribución | Registro o evidencia |
 |---|---|
-| Vista principal utilizada como referencia |  |
-| `Top` colocado debajo de `Front` |  |
-| `Right` colocado a la izquierda de `Front` |  |
-| Alineación y separación entre vistas ortogonales |  |
-| Zona reservada para la vista explosionada |  |
-| Ubicación de la lista y los globos |  |
-| Cajetín libre de superposiciones |  |
-| Hoja adicional utilizada dentro del mismo Drawing, si corresponde |  |
+| Vista principal utilizada como referencia | Se utilizó Front como vista principal para representar el ensamblaje y organizar las vistas relacionadas. |
+| `Top` colocado debajo de `Front` | Pendiente de confirmar la corrección de la vista Top para que quede debajo de Front, según el primer diedro. |
+| `Right` colocado a la izquierda de `Front` | La vista Right se encuentra a la izquierda de Front en la hoja de vistas ortogonales. |
+| Alineación y separación entre vistas ortogonales | Las vistas están separadas para facilitar su lectura. Se debe comprobar la alineación definitiva después de corregir la ubicación de Top. |
+| Zona reservada para la vista explosionada | Se utilizó una hoja independiente dentro del mismo Drawing para presentar la vista explosionada sin saturar las vistas normales. |
+| Ubicación de la lista y los globos | La lista se colocó junto a la vista explosionada y los globos se distribuyeron alrededor de las tres piezas para facilitar su identificación. |
+| Cajetín libre de superposiciones | El cajetín se encuentra en la esquina inferior derecha y no presenta superposiciones importantes con las vistas o la lista. |
+| Hoja adicional utilizada dentro del mismo Drawing, si corresponde | Se utilizaron varias hojas dentro del mismo Drawing. La hoja 1 contiene las vistas ortogonales y la hoja 3 muestra la vista explosionada y su lista de componentes. |
+
 
 ## Lección 1. Análisis del ensamblaje y planificación
 
