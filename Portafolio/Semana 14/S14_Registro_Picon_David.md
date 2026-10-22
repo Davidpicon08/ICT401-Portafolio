@@ -126,7 +126,7 @@ Las vistas pueden distribuirse en varias hojas, pero deben permanecer dentro del
 
 **Captura de la vista explosionada:**
 
-![Vista explosionada inicial](evidencias/S14_E2_Vista_Explosionada.png)
+![Vista explosionada inicial](evidencias/S14_E2_Vista_Explosionada.PNG)
 
 **Captura de la posición o versión intermedia, si corresponde:**
 
