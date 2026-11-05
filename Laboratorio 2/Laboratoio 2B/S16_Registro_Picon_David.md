@@ -4,8 +4,8 @@
 **Semana:** 16
 **Laboratorio:** Integrador II-B
 **Valor del laboratorio:** 10 %
-**Estudiante o equipo:** Apellido, Nombre
-**Proyecto:** Nombre breve del Proyecto Integrador
+**Estudiante o equipo:** Picon, David
+**Proyecto:** Soporte ajustable para celular
 **Fecha:** 05 de noviembre de 2026
 **Versión inicial:** `nombre_proyecto_v__`
 **Versión evaluada:** `nombre_proyecto_v__`
