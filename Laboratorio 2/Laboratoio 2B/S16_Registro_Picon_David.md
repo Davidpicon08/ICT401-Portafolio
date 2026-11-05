@@ -89,10 +89,10 @@ Marque `N.A.` cuando un formato no corresponda al proyecto y justifique la decis
 
 | Archivo | Geometría | Unidades | Escala/orientación | Versión | Ubicación | Resultado |
 |---|:---:|:---:|:---:|:---:|---|---|
-| Drawing PROY Fase 4.pdf | [x] | [x] | [ ] | [ ] | Documentación de Fase 4 | Se dispone de cuatro hojas de planos técnicos. Falta confirmar escala y correspondencia con el modelo definitivo. |
-| Archivo DXF de Fase 4 | [x] | [ ] | [ ] | [ ] | Archivos de Fase 4 | El archivo pudo abrirse y contiene geometría 2D, cotas y anotaciones. Falta verificar unidades y versión. |
-| STL del soporte | [x] | [ ] | [ ] | [ ] | github |en github. |
-| STEP del soporte | [x] | [ ] | [ ] | [ ] | github | en github. |
+| Drawing PROY Fase 4.pdf | [x] | [mm] | horizonta ] | [ ] | Documentación de Fase 4 | Se dispone de cuatro hojas de planos técnicos. Falta confirmar escala y correspondencia con el modelo definitivo. |
+| Archivo DXF de Fase 4 | [x] | [mm] | [horizontal] | [ ] | Archivos de Fase 4 | El archivo pudo abrirse y contiene geometría 2D, cotas y anotaciones. Falta verificar unidades y versión. |
+| STL del soporte | [x] | [mm] | [mm] | [horizontal] | github |en github. |
+| STEP del soporte | [x] | [mm] | [horizontal] | [ ] | github | en github. |
 
 
 **Archivo o captura de comprobación:** ![Texto alternativo](evidencias/S16_E2_Exportaciones.png)
@@ -107,26 +107,29 @@ En Fusion, la ruta de comprobación es **Design > Inspect > Measure**. En el res
 
 No agregue una tolerancia que no esté indicada en el plano, la rúbrica o la instrucción correspondiente.
 
+
 | Característica | Dimensión nominal | Tolerancia | Límite inferior | Límite superior | Valor observado | Unidad |
 |---|---:|---:|---:|---:|---:|---|
-| Ejemplo: diámetro de agujero | 16 | ±0,2 | 15,8 | 16,2 | 16,1 | mm |
-| 2 |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |
-| 4 |  |  |  |  |  |  |
+| Ancho exterior de la base inferior | 100 | 0,10 | N.A. | N.A. | 100 (lectura documental) | mm |
+| Ancho exterior del conjunto | 100 | 0,10 | N.A. | N.A. | 100 (lectura del plano) | mm |
+| Ancho exterior del marco superior | 70 | 0.10 | N.A. | N.A. | 70 (lectura del plano) | mm |
+| Espesor de la base inferior | 9,5 | 0,10 | N.A. | N.A. | 9,5 (lectura del plano) | mm |
+
+### Método y resultado
 
 ### Método y resultado
 
 | Característica | Herramienta o método | Resultado | Limitación de la comprobación |
 |---|---|---|---|
-| Ejemplo: diámetro de agujero | `Inspect > Measure`, diámetro | Conforme | Medición digital; no certifica una pieza fabricada |
-| 2 |  | Conforme / revisar / N.A. |  |
-| 3 |  | Conforme / revisar / N.A. |  |
-| 4 |  | Conforme / revisar / N.A. |  |
-
+| Ancho exterior de la base inferior | Comparación de las cotas del plano. Medición directa pendiente con `Inspect > Measure`. | Coincidencia documental de 100 mm. | No se dispone de una medición independiente del modelo ni de una tolerancia especificada. |
+| Ancho exterior del conjunto | Revisión de las dimensiones en las vistas del ensamblaje. | Coincidencia documental de 100 mm. | ninguna |
+| Ancho exterior del marco superior | Lectura de la dimensión correspondiente en el plano de la pieza superior. | Dimensión nominal identificada: 70 mm. | No permite determinar conformidad sin una tolerancia y una medición independiente. |
+| Espesor de la base inferior | Revisión de la cota de espesor en el plano de fabricación. | Dimensión nominal identificada: 9,5 mm. | No certifica las dimensiones de una pieza fabricada. |
 **Ejemplo de cálculo, si corresponde:**
 
 **Captura o referencia de la medición:** `evidencias/S16_E3_Control_Dimensional.png`  
 **¿Qué valor o criterio no pudo comprobarse?**
+No fue posible determinar la conformidad dimensional de las piezas respecto a una tolerancia específica, debido a que los planos revisados no establecen límites de variación para las características seleccionadas.
 
 ## Lección 4. Integración y cierre del laboratorio
 
