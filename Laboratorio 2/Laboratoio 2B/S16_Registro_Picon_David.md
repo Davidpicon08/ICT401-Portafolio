@@ -65,7 +65,9 @@ Los textos que comienzan con **Ejemplo:** muestran el nivel de detalle esperado.
 | El cajetín o identificación está completo según la plantilla. | [x] | [ ] | [ ] | La documentación contiene cajetines. Falta verificar que todos incluyan correctamente título, autores, fecha, escala y unidades. |
 | La lista coincide con el ensamblaje, cuando corresponde. | [x] | [ ] | [ ] | La documentación registra tres componentes principales: base inferior, soporte central y marco superior, con una unidad de cada uno. |
 | La orientación y la escala son coherentes. | x ] | [ ] | [ ] | Se dispone de cuatro hojas de planos técnicos. Falta comprobar la escala indicada y la orientación de las vistas en cada hoja. |
-![Conjunto inicial de la Semana 13](evidencias/S14_E1_Conjunto_Inicial.PNG)
+
+![Conjunto inicial de la Semana 13](evidencias/S16_E1_Estado_Inicial.png)
+
 **Captura del estado inicial:** `evidencias/S16_E1_Estado_Inicial.png`  
 **Corrección prioritaria antes de exportar:**
 
