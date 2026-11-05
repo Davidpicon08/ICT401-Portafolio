@@ -92,7 +92,7 @@ Marque `N.A.` cuando un formato no corresponda al proyecto y justifique la decis
 |  | [ ] | [ ] | [ ] | [ ] |  |  |
 |  | [ ] | [ ] | [ ] | [ ] |  |  |
 
-**Archivo o captura de comprobación:** `evidencias/S16_E2_Exportaciones.png`  
+**Archivo o captura de comprobación:** `S16_E2_Exportaciones.png`  
 **Discrepancia encontrada:**  
 **Corrección aplicada:**  
 
