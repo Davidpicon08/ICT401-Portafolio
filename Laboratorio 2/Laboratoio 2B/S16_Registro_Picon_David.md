@@ -95,7 +95,9 @@ Marque `N.A.` cuando un formato no corresponda al proyecto y justifique la decis
 | STEP del soporte | [x] | [ ] | [ ] | [ ] | github | en github. |
 
 
-**Archivo o captura de comprobación:** `S16_E2_Exportaciones.png`  
+**Archivo o captura de comprobación:** ![Texto alternativo](evidencias/S16_E2_Exportaciones.png)
+
+`S16_E2_Exportaciones.png`  
 **Discrepancia encontrada:**  
 **Corrección aplicada:**  
 
