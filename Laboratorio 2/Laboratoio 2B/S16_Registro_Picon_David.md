@@ -42,27 +42,29 @@ Los textos que comienzan con **Ejemplo:** muestran el nivel de detalle esperado.
 
 ## Lección 1. Auditoría del proyecto y documentación
 
+
 | Elemento | Registro |
 |---|---|
-| Archivo o enlace principal | Ejemplo: `Data Panel > Proyecto > Soporte_v04` |
-| Versión revisada | Ejemplo: `Soporte_v04`, no solo ``versión final'' |
-| Fecha de la versión | Ejemplo: `05-11-2026` |
-| Unidades del proyecto | Ejemplo: `mm`, comprobado en `Document Settings > Units` |
-| Plano o Drawing utilizado | Ejemplo: `Drawing_Fase4`, hoja 1 |
-| Ensamblaje utilizado, si corresponde | Ejemplo: `Ensamblaje_Soporte`, componente raíz activo |
-| Lista básica de componentes, si corresponde | Ejemplo: `Parts List` con 3 componentes |
-| Ubicación del respaldo inicial | Ejemplo: `Proyecto_v04_respaldo` |
-| Problema prioritario encontrado | Ejemplo: el PDF corresponde a una versión anterior del modelo |
+| Archivo o enlace principal | Proyecto Integrador – Soporte ajustable para celular, Autodesk Fusion 360. |
+| Versión revisada | Versión correspondiente a la Fase 4 del Proyecto Integrador.|
+| Fecha de la versión | 4/11/26. |
+| Unidades del proyecto | Milímetros (mm), utilizados para el diseño y dimensionamiento de las piezas. |
+| Plano o Drawing utilizado | Drawing del Proyecto Integrador, Fase 4, compuesto por cuatro hojas de documentación técnica. |
+| Ensamblaje utilizado, si corresponde | Ensamblaje del soporte ajustable para celular, formado por la base inferior, el soporte central y la pieza superior inclinable. |
+| Lista básica de componentes, si corresponde | Lista de tres componentes principales, con una unidad de cada pieza. |
+| Ubicación del respaldo inicial |carpeta de David Picon en fusion |
+| Problema prioritario encontrado | Necesidad de comprobar que el modelo tridimensional, el ensamblaje y los planos técnicos correspondan a la misma versión, verificando dimensiones, unidades y documentación antes de las exportaciones finales. |
+
 
 ### Revisión de coherencia
 
-| Control | Sí | No | N.A. | Evidencia o corrección |
+|| Control | Sí | No | N.A. | Evidencia o corrección |
 |---|:---:|:---:|:---:|---|
-| El modelo y la documentación corresponden a la misma versión. | [ ] | [ ] | [ ] | Ejemplo: captura del nombre `v04` en modelo y plano |
-| El plano contiene las vistas, cotas y datos que corresponden. | [ ] | [ ] | [ ] | Ejemplo: cota del agujero coincide con el modelo |
-| El cajetín o identificación está completo según la plantilla. | [ ] | [ ] | [ ] | Ejemplo: título, autoría, fecha y escala visibles |
-| La lista coincide con el ensamblaje, cuando corresponde. | [ ] | [ ] | [ ] | Ejemplo: 3 ítems en Browser y `Parts List` |
-| La orientación y la escala son coherentes. | [ ] | [ ] | [ ] | Ejemplo: Drawing en mm y escala 1:1 |
+| El modelo y la documentación corresponden a la misma versión. | [x] | [ ] | [ ] | Se dispone del modelo y la documentación de la Fase 4. Falta confirmar el número de versión y su correspondencia exacta. |
+| El plano contiene las vistas, cotas y datos que corresponden. | [x] | [ ] | [ ] | Los planos de la Fase 4 incluyen vistas y cotas de las piezas. Se documentaron dimensiones como 100 × 90 mm para la base inferior, 50 × 110 mm para el soporte central y 70 × 100 mm para la pieza superior. |
+| El cajetín o identificación está completo según la plantilla. | [x] | [ ] | [ ] | La documentación contiene cajetines. Falta verificar que todos incluyan correctamente título, autores, fecha, escala y unidades. |
+| La lista coincide con el ensamblaje, cuando corresponde. | [x] | [ ] | [ ] | La documentación registra tres componentes principales: base inferior, soporte central y marco superior, con una unidad de cada uno. |
+| La orientación y la escala son coherentes. | x ] | [ ] | [ ] | Se dispone de cuatro hojas de planos técnicos. Falta comprobar la escala indicada y la orientación de las vistas en cada hoja. |
 
 **Captura del estado inicial:** `evidencias/S16_E1_Estado_Inicial.png`  
 **Corrección prioritaria antes de exportar:**
