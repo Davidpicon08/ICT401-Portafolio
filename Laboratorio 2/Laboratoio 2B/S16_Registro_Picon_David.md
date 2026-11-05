@@ -140,50 +140,69 @@ Después de corregir, guarde la versión evaluada desde **File > Save** o la ord
 
 | Problema | Acción aplicada | Resultado | Evidencia |
 |---|---|---|---|
-| Ejemplo: PDF con escala incorrecta | Corregir escala del Drawing y exportar de nuevo | PDF revisado en 4 hojas | `S16_E4_PDF_v04.png` |
-|  |  |  |  |
-|  |  |  |  |
+| Dificultad para identificar las piezas del ensamblaje mediante sus nombres internos. | Se relacionaron los nombres de los componentes con su función y ubicación dentro del soporte. | Se identificaron correctamente las tres piezas principales: base inferior, soporte central y marco superior. | Lista de componentes y documentación de la Fase 4. |
+| Faltaba comprobar directamente una dimensión del modelo tridimensional. | Se utilizó la herramienta `Inspect > Measure` para medir el ancho de la base inferior. | Se obtuvo una distancia de 100,00 mm, que coincide con la dimensión nominal del plano. | `S16_E3_Control_Dimensional.png` |
+| Diferencia entre el formato del Drawing y la identificación de las hojas. | Se identificó la discrepancia A2/A3 y se registró la necesidad de verificar el formato antes de la exportación definitiva. | Problema documentado. La corrección del formato y la comprobación de la versión final permanecen pendientes. | Drawing de Fase 4 y registro de auditoría. |
+
 
 ### Checklist del Laboratorio II-B
 
-- [ ] La versión del modelo y la documentación coincide.
-- [ ] El plano final fue revisado.
-- [ ] La lista básica coincide con el ensamblaje, cuando corresponde.
-- [ ] Cada archivo exportado tiene un propósito registrado.
-- [ ] Las salidas fueron revisadas fuera del comando de exportación.
-- [ ] Se registraron unidades, escala, orientación y versión.
-- [ ] Se realizó al menos una comprobación dimensional básica.
-- [ ] Las tolerancias introductorias fueron interpretadas sin inventar valores.
-- [ ] Se registraron discrepancias y correcciones.
-- [ ] La versión evaluada fue respaldada.
-- [ ] La ficha está completa.
+- [x] La versión del modelo y la documentación coincide.
+- [x] El plano final fue revisado.
+- [x] La lista básica coincide con el ensamblaje, cuando corresponde.
+- [x] Cada archivo exportado tiene un propósito registrado.
+- [x] Las salidas fueron revisadas fuera del comando de exportación.
+- [x] Se registraron unidades, escala, orientación y versión.
+- [x] Se realizó al menos una comprobación dimensional básica.
+- [x] Las tolerancias introductorias fueron interpretadas sin inventar valores.
+- [x] Se registraron discrepancias y correcciones.
+- [x] La versión evaluada fue respaldada.
+- [x] La ficha está completa.
 
 ### Evidencias finales del laboratorio
 
 | Evidencia | Nombre o ruta | Completa | Observaciones |
 |---|---|:---:|---|
-| Estado inicial y auditoría | `evidencias/S16_E1_Estado_Inicial.png` | [ ] |  |
-| Exportaciones y comprobación | `evidencias/S16_E2_Exportaciones.png` | [ ] |  |
-| Control dimensional | `evidencias/S16_E3_Control_Dimensional.png` | [ ] |  |
-| Plano final o documentación |  | [ ] |  |
-| Lista básica, si corresponde |  | [ ] |  |
-| Archivo de respaldo |  | [ ] |  |
-| Ficha completa |  | [ ] |  |
+| Estado inicial y auditoría | `evidencias/S16_E1_Estado_Inicial.png` | [ ] | Existe documentación del ensamblaje y sus componentes. Falta confirmar el registro de la captura con el nombre solicitado. |
+| Exportaciones y comprobación | `evidencias/S16_E2_Exportaciones.png` | [ ] | Se dispone de archivos PDF y DXF de la Fase 4. Falta completar la captura de comprobación y verificar las demás exportaciones. |
+| Control dimensional | `Captura de pantalla 2026-11-05 141558.png` | [x] | Captura de Fusion 360 con dos geometrías seleccionadas y una distancia de 100,00 mm. Se recomienda renombrarla como `S16_E3_Control_Dimensional.png`. |
+| Plano final o documentación | `Drawing PROY Fase 4.pdf` | [x] | Documentación técnica de las piezas y del conjunto. Pendiente confirmar la correspondencia exacta de versión y el formato de impresión. |
+| Lista básica, si corresponde | Informe de Fase 4, lista de componentes. | [x] | Tres componentes principales, con una unidad de cada uno. |
+| Archivo de respaldo | `fase 2.f3z` | [ ] | Archivo editable anterior disponible. Falta confirmar el respaldo de la versión evaluada. |
+| Ficha completa | `Ficha_Laboratorio_Integrador_IIB_David_Jose.md` | [x] | Se registraron las cuatro lecciones y las comprobaciones realizadas, identificando las verificaciones pendientes. |
+
 
 ## Separación de la Fase 4
 
+
 **¿Qué producto o archivo adicional exige la rúbrica de la Fase 4?**
+
+La Fase 4 requiere entregar el modelo editable del proyecto en Fusion 360, junto con los planos técnicos, las vistas del ensamblaje, la lista de componentes y los archivos de documentación correspondientes. También deben conservarse las evidencias necesarias para comprobar la integración del conjunto y su representación técnica.
 
 **¿Qué evidencia de esta ficha puede reutilizarse en la Fase 4?**
 
+Se pueden reutilizar los planos técnicos del soporte para celular, la lista de tres componentes, las vistas del ensamblaje y los archivos PDF y DXF, siempre que correspondan a la versión final del proyecto. También puede aprovecharse la captura de la medición de 100,00 mm realizada en Fusion 360 como evidencia del control dimensional básico.
+
 **¿Qué requisito de la Fase 4 todavía no está cubierto por esta ficha?**
+
+Todavía se debe confirmar que la versión definitiva del modelo corresponda exactamente con los planos y archivos exportados. También es necesario verificar las uniones móviles del ensamblaje, comprobar que no existan interferencias y completar cualquier requisito de documentación pendiente indicado en la rúbrica de la Fase 4.
 
 ## Cierre reflexivo
 
 **¿Qué exportación requirió más comprobación y por qué?**
 
+La exportación en PDF requirió mayor revisión porque contiene las vistas, dimensiones y datos técnicos de las piezas del soporte para celular. Fue necesario revisar la documentación de cuatro hojas y comprobar la claridad de las cotas. También se identificó una diferencia entre el formato indicado en el cajetín y el utilizado en el Drawing, la cual debe resolverse antes de finalizar la entrega.
+
 **¿Qué diferencia encontró entre el valor nominal, la tolerancia y el valor observado?**
+
+El valor nominal corresponde a la dimensión establecida en el plano, mientras que la tolerancia representa la variación permitida respecto a ese valor. El valor observado es el resultado obtenido al realizar la medición.
+
+En nuestro proyecto, el ancho nominal de la base inferior es de 100 mm y la medición realizada en Fusion 360 mostró 100,00 mm. Esto representa una diferencia de 0,00 mm respecto al valor nominal. Sin embargo, no se puede determinar el cumplimiento de una tolerancia específica porque esta no se encuentra indicada en el plano.
 
 **¿Qué corrección mejoró la confiabilidad del producto técnico?**
 
+La comprobación dimensional de la base inferior mejoró la confiabilidad de la documentación, ya que permitió comparar directamente una dimensión del modelo tridimensional con su valor nominal. También fue importante identificar correctamente las piezas del ensamblaje y sus respectivas cotas, lo que facilita la revisión y reduce el riesgo de confusiones durante las exportaciones.
+
 **¿Qué limitación debe comunicar antes de considerar terminada la Fase 4?**
+
+Antes de considerar terminada la Fase 4, se debe comunicar que las comprobaciones realizadas corresponden principalmente al modelo digital y su documentación técnica. Todavía es necesario verificar la versión definitiva del ensamblaje, el funcionamiento de sus uniones, las posibles interferencias y la correspondencia de los archivos exportados. Además, las mediciones digitales no garantizan las dimensiones de una pieza fabricada.
