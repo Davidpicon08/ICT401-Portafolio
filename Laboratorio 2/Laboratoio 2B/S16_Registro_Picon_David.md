@@ -77,22 +77,23 @@ En Fusion, seleccione primero el objeto correcto en el **Browser**. No exporte t
 
 | Formato | Propósito | Configuración relevante | Archivo generado | Comprobado |
 |---|---|---|---|:---:|
-| STL | Ejemplo: malla para impresión 3D | Ejemplo: `Save As Mesh`, unidades mm | Ejemplo: `Soporte_STL_v04` | [ ] |
-| STEP | Ejemplo: intercambio de geometría 3D | Ejemplo: `File > Export`, componente seleccionado | Ejemplo: `Soporte_STEP_v04` | [ ] |
-| DXF | Ejemplo: perfil 2D para intercambio | Ejemplo: sketch o Drawing seleccionado | Ejemplo: `Perfil_DXF_v04` | [ ] |
-| PDF | Ejemplo: documentación del Drawing | Ejemplo: hojas, orientación y escala | Ejemplo: `Plano_PDF_v04` | [ ] |
-| Otro | Escriba el propósito | Escriba la configuración | Escriba el nombre | [ ] |
-
+| STL | Obtener una representación de malla tridimensional de las piezas del soporte, útil para impresión 3D y revisión de geometría. | Fusion 360 > Save As Mesh. Seleccionar el componente correspondiente y configurar las unidades en milímetros (mm). | Pendiente de exportar. | [ ] |
+| STEP | Facilitar el intercambio del modelo tridimensional entre programas CAD, conservando la geometría de las piezas. | Fusion 360 > File > Export > STEP. Seleccionar el diseño correspondiente y comprobar las unidades. | Pendiente de exportar. | [ ] |
+| DXF | Exportar la geometría bidimensional y los perfiles técnicos para su consulta o utilización en otros programas de diseño. | Exportación de geometría 2D desde Fusion 360. Comprobar las cotas, líneas, arcos y unidades del archivo. | Archivo DXF de la Fase 4. Nombre exacto pendiente de confirmar. | [x] |
+| PDF | Presentar la documentación técnica del proyecto, incluyendo vistas, dimensiones, cajetines y planos de fabricación. | Exportación del Drawing de Fusion 360. Comprobar la orientación, las hojas y la legibilidad de las cotas. | Drawing PROY Fase 4.pdf | [x] |
+| Otro (F3Z) | Conservar un archivo editable del proyecto para respaldo, revisión y modificaciones posteriores. | Archivo de diseño de Fusion 360 con sus componentes y estructura de ensamblaje. | fase 2.f3z (archivo previo disponible; no corresponde necesariamente a la versión final). | [x] |
 Marque `N.A.` cuando un formato no corresponda al proyecto y justifique la decisión.
 
 ### Comprobación de cada salida
 
+
 | Archivo | Geometría | Unidades | Escala/orientación | Versión | Ubicación | Resultado |
 |---|:---:|:---:|:---:|:---:|---|---|
-| Ejemplo: `Plano_PDF_v04` | [x] | [x] | [x] | [x] | `salidas/` | 4 hojas legibles |
-|  | [ ] | [ ] | [ ] | [ ] |  |  |
-|  | [ ] | [ ] | [ ] | [ ] |  |  |
-|  | [ ] | [ ] | [ ] | [ ] |  |  |
+| Drawing PROY Fase 4.pdf | [x] | [x] | [ ] | [ ] | Documentación de Fase 4 | Se dispone de cuatro hojas de planos técnicos. Falta confirmar escala y correspondencia con el modelo definitivo. |
+| Archivo DXF de Fase 4 | [x] | [ ] | [ ] | [ ] | Archivos de Fase 4 | El archivo pudo abrirse y contiene geometría 2D, cotas y anotaciones. Falta verificar unidades y versión. |
+| STL del soporte | [x] | [ ] | [ ] | [ ] | github |en github. |
+| STEP del soporte | [x] | [ ] | [ ] | [ ] | github | en github. |
+
 
 **Archivo o captura de comprobación:** `S16_E2_Exportaciones.png`  
 **Discrepancia encontrada:**  
