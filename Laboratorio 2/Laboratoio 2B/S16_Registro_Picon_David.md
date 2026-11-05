@@ -127,7 +127,8 @@ No agregue una tolerancia que no esté indicada en el plano, la rúbrica o la in
 | Espesor de la base inferior | Revisión de la cota de espesor en el plano de fabricación. | Dimensión nominal identificada: 9,5 mm. | No certifica las dimensiones de una pieza fabricada. |
 **Ejemplo de cálculo, si corresponde:**
 
-**Captura o referencia de la medición:** `evidencias/S16_E3_Control_Dimensional.png`  
+**Captura o referencia de la medición:** ![Texto alternativo](evidencias/S16_E3_Control_Dimensional.png)
+`evidencias/S16_E3_Control_Dimensional.png`  
 **¿Qué valor o criterio no pudo comprobarse?**
 No fue posible determinar la conformidad dimensional de las piezas respecto a una tolerancia específica, debido a que los planos revisados no establecen límites de variación para las características seleccionadas.
 
